@@ -15,7 +15,7 @@
   input,select{font:inherit;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--card);color:var(--ink)}
   input{flex:1 1 260px}
   .count{font-family:"IBM Plex Mono",monospace;color:var(--ink2)}
-  .wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:8px;background:var(--card)}
+  .wrap{overflow:auto;max-height:72vh;border:1px solid var(--rule);border-radius:8px;background:var(--card)}
   table{border-collapse:collapse;width:100%;min-width:760px}
   th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--rule)}
   th{position:sticky;top:0;background:var(--soft);font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
@@ -36,7 +36,7 @@
   <span class="count" id="count"></span>
 </div>
 <div class="wrap"><table id="t"><thead><tr><th>Rule id</th><th>Source</th><th>Page</th><th>Actor</th><th>Rule</th></tr></thead><tbody></tbody></table></div>
-<p class="foot">Data: <a href="rules.json">rules.json</a>. Sources numbered as in the shared folder: 00 Transluce, 01 988 Lifeline, 02 SAFE-T, 03 C-SSRS, 04 NIAAA, 05 ASQ, 06 ASAM, 07 BSTAD, 08 S2BI, 09 AAP, 10 CRAFFT, 11 RAND (McBain), 12 APA, 13 FDA, 14 VERA-MH. Page numbers are PDF pages. Extracted Sept 2026; under verification.</p>
+<p class="foot">Copyright: the site, the compilation and the extraction method © 2026 Joshua Attih, University of New Mexico. Each quoted rule remains the property of its source organisation and is reproduced for research and scholarship with its source named. Data: <a href="rules.json">rules.json</a>. Sources numbered as in the shared folder: 00 Transluce, 01 988 Lifeline, 02 SAFE-T, 03 C-SSRS, 04 NIAAA, 05 ASQ, 06 ASAM, 07 BSTAD, 08 S2BI, 09 AAP, 10 CRAFFT, 11 RAND (McBain), 12 APA, 13 FDA, 14 VERA-MH. Page numbers are PDF pages. Extracted Sept 2026; under verification.</p>
 <script>
 (async function(){
   const rows = await (await fetch('rules.json')).json();
