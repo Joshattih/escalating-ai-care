@@ -2,7 +2,7 @@
 
 Year-2 PhD project, University of New Mexico (Joshua Attih; advisor Melanie Moses).
 
-**Question.** When a group of clinicians must set the rule for when an AI screening tool stops talking to a teen and hands over to a person, how is that rule reached, who cannot live with it, and what does their position cost?
+**Question.** When a group of clinicians must set the rule for when an AI screening tool stops talking to a MBH patient and hands over to a person, how is that rule reached, who cannot live with it, and what does their position cost?
 
 **This repository holds**
 
