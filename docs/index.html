@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escalation rules explorer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono&display=swap">
+<style>
+  :root{--paper:#f7f5f0;--ink:#1c2230;--ink2:#4a5262;--rule:#d9d4c8;--blue:#2f6db3;--soft:#eef3fa;--red:#c0392b;--card:#fff}
+  @media (prefers-color-scheme:dark){:root{--paper:#171a21;--ink:#ecebe6;--ink2:#b6bac4;--rule:#2f3441;--blue:#7fb0ea;--soft:#1d2735;--red:#ef6f60;--card:#1f232c}}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.5;padding:24px clamp(16px,4vw,48px) 64px}
+  h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(26px,4vw,40px);margin:0 0 6px}
+  .sub{color:var(--ink2);max-width:70ch;margin:0 0 18px}
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+  input,select{font:inherit;padding:8px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--card);color:var(--ink)}
+  input{flex:1 1 260px}
+  .count{font-family:"IBM Plex Mono",monospace;color:var(--ink2)}
+  .wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:8px;background:var(--card)}
+  table{border-collapse:collapse;width:100%;min-width:760px}
+  th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--rule)}
+  th{position:sticky;top:0;background:var(--soft);font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+  td.id,td.pg{font-family:"IBM Plex Mono",monospace;white-space:nowrap;color:var(--ink2)}
+  td.rule{max-width:70ch}
+  mark{background:#ffe9a8;color:#1c2230;padding:0 2px}
+  .foot{margin-top:14px;color:var(--ink2);font-size:13px;max-width:80ch}
+  a{color:var(--blue)}
+</style>
+</head>
+<body>
+<h1>Escalation rules explorer</h1>
+<p class="sub">Every rule a clinician, counsellor, judge or developer is told to follow, taken from 14 official severity and escalation rating systems (2007 to 2026). One rule per row; each traceable to its document and page. A rule is a statement telling the actor what to look for, how to classify what they found, or what to do about it.</p>
+<div class="bar">
+  <input id="q" type="search" placeholder="Search the rules (e.g. hand over, imminent, drinking days, cannot leave)">
+  <select id="src"><option value="">All sources</option></select>
+  <select id="actor"><option value="">All actors</option></select>
+  <span class="count" id="count"></span>
+</div>
+<div class="wrap"><table id="t"><thead><tr><th>Rule id</th><th>Source</th><th>Page</th><th>Actor</th><th>Rule</th></tr></thead><tbody></tbody></table></div>
+<p class="foot">Data: <a href="rules.json">rules.json</a>. Sources numbered as in the shared folder: 00 Transluce, 01 988 Lifeline, 02 SAFE-T, 03 C-SSRS, 04 NIAAA, 05 ASQ, 06 ASAM, 07 BSTAD, 08 S2BI, 09 AAP, 10 CRAFFT, 11 RAND (McBain), 12 APA, 13 FDA, 14 VERA-MH. Page numbers are PDF pages. Extracted Sept 2026; under verification.</p>
+<script>
+(async function(){
+  const rows = await (await fetch('rules.json')).json();
+  const q=document.getElementById('q'), src=document.getElementById('src'), act=document.getElementById('actor'), tb=document.querySelector('#t tbody'), count=document.getElementById('count');
+  const srcs=[...new Set(rows.map(r=>r.source_id+' '+r.source_name.split(' ').slice(0,4).join(' ')))].sort();
+  const byId={}; rows.forEach(r=>{byId[r.source_id]=byId[r.source_id]||r.source_name});
+  [...new Set(rows.map(r=>r.source_id))].sort().forEach(id=>{const o=document.createElement('option');o.value=id;o.textContent=id+' · '+byId[id];src.appendChild(o);});
+  [...new Set(rows.map(r=>r.actor).filter(Boolean))].sort().forEach(a=>{const o=document.createElement('option');o.value=a;o.textContent=a;act.appendChild(o);});
+  const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  function render(){
+    const term=q.value.trim().toLowerCase(), s=src.value, a=act.value;
+    const out=rows.filter(r=>(!s||r.source_id===s)&&(!a||r.actor===a)&&(!term||(r.rule+' '+r.source_name).toLowerCase().includes(term)));
+    count.textContent=out.length+' of '+rows.length+' rules';
+    const re=term?new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'):null;
+    tb.innerHTML=out.slice(0,800).map(r=>`<tr><td class="id">${r.rule_id}</td><td>${esc(r.source_name)}</td><td class="pg">${esc(String(r.page))}</td><td>${esc(r.actor||'')}</td><td class="rule">${re?esc(r.rule).replace(re,'<mark>$1</mark>'):esc(r.rule)}</td></tr>`).join('')+(out.length>800?'<tr><td colspan="5">Showing the first 800; narrow the search to see the rest.</td></tr>':'');
+  }
+  [q,src,act].forEach(el=>el.addEventListener('input',render)); render();
+})();
+</script>
+</body>
+</html>
