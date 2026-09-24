@@ -28,32 +28,33 @@
 </head>
 <body>
 <h1>Escalation rules explorer</h1>
-<p class="sub">Every rule a clinician, counsellor, judge or developer is told to follow, taken from 14 official severity and escalation rating systems (2007 to 2026). One rule per row; each traceable to its document and page. A rule is a statement telling the actor what to look for, how to classify what they found, or what to do about it.</p>
+<p class="sub">Every rule a clinician, counsellor, judge or developer is told to follow, taken from 14 official severity and escalation rating systems (2007 to 2026). One rule per row; each traceable to its document and page. A rule is a statement telling the actor what to look for, how to classify what they found, or what to do about it. A rule describes a <em>state</em> when it says something about the patient at a moment; only state rules become statements for rating. Hover a yes or no in the State column to see the note on a close call.</p>
 <div class="bar">
   <input id="q" type="search" placeholder="Search the rules (e.g. hand over, imminent, drinking days, cannot leave)">
   <select id="src"><option value="">All sources</option></select>
   <select id="actor"><option value="">All actors</option></select>
+  <select id="state"><option value="">States and non-states</option><option value="yes">Describes a patient state</option><option value="no">Does not describe a state</option></select>
   <span class="count" id="count"></span>
 </div>
-<div class="wrap"><table id="t"><thead><tr><th>Rule id</th><th>Source</th><th>Page</th><th>Actor</th><th>Rule</th></tr></thead><tbody></tbody></table></div>
+<div class="wrap"><table id="t"><thead><tr><th>Rule id</th><th>Source</th><th>Page</th><th>Actor</th><th>State?</th><th>Rule</th></tr></thead><tbody></tbody></table></div>
 <p class="foot">Copyright: the site, the compilation and the extraction method © 2026 Joshua Attih, University of New Mexico. Each quoted rule remains the property of its source organisation and is reproduced for research and scholarship with its source named. Data: <a href="rules.json">rules.json</a>. Sources numbered as in the shared folder: 00 Transluce, 01 988 Lifeline, 02 SAFE-T, 03 C-SSRS, 04 NIAAA, 05 ASQ, 06 ASAM, 07 BSTAD, 08 S2BI, 09 AAP, 10 CRAFFT, 11 RAND (McBain), 12 APA, 13 FDA, 14 VERA-MH. Page numbers are PDF pages. Extracted Sept 2026; under verification.</p>
 <script>
 (async function(){
   const rows = await (await fetch('rules.json')).json();
-  const q=document.getElementById('q'), src=document.getElementById('src'), act=document.getElementById('actor'), tb=document.querySelector('#t tbody'), count=document.getElementById('count');
+  const q=document.getElementById('q'), src=document.getElementById('src'), act=document.getElementById('actor'), st=document.getElementById('state'), tb=document.querySelector('#t tbody'), count=document.getElementById('count');
   const srcs=[...new Set(rows.map(r=>r.source_id+' '+r.source_name.split(' ').slice(0,4).join(' ')))].sort();
   const byId={}; rows.forEach(r=>{byId[r.source_id]=byId[r.source_id]||r.source_name});
   [...new Set(rows.map(r=>r.source_id))].sort().forEach(id=>{const o=document.createElement('option');o.value=id;o.textContent=id+' · '+byId[id];src.appendChild(o);});
   [...new Set(rows.map(r=>r.actor).filter(Boolean))].sort().forEach(a=>{const o=document.createElement('option');o.value=a;o.textContent=a;act.appendChild(o);});
   const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   function render(){
-    const term=q.value.trim().toLowerCase(), s=src.value, a=act.value;
-    const out=rows.filter(r=>(!s||r.source_id===s)&&(!a||r.actor===a)&&(!term||(r.rule+' '+r.source_name).toLowerCase().includes(term)));
+    const term=q.value.trim().toLowerCase(), s=src.value, a=act.value, sv=st.value;
+    const out=rows.filter(r=>(!s||r.source_id===s)&&(!a||r.actor===a)&&(!sv||r.describes_state===sv)&&(!term||(r.rule+' '+r.source_name).toLowerCase().includes(term)));
     count.textContent=out.length+' of '+rows.length+' rules';
     const re=term?new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'):null;
-    tb.innerHTML=out.slice(0,800).map(r=>`<tr><td class="id">${r.rule_id}</td><td>${esc(r.source_name)}</td><td class="pg">${esc(String(r.page))}</td><td>${esc(r.actor||'')}</td><td class="rule">${re?esc(r.rule).replace(re,'<mark>$1</mark>'):esc(r.rule)}</td></tr>`).join('')+(out.length>800?'<tr><td colspan="5">Showing the first 800; narrow the search to see the rest.</td></tr>':'');
+    tb.innerHTML=out.slice(0,800).map(r=>`<tr><td class="id">${r.rule_id}</td><td>${esc(r.source_name)}</td><td class="pg">${esc(String(r.page))}</td><td>${esc(r.actor||'')}</td><td class="pg" title="${esc(r.state_note||'')}">${r.describes_state||''}</td><td class="rule">${re?esc(r.rule).replace(re,'<mark>$1</mark>'):esc(r.rule)}</td></tr>`).join('')+(out.length>800?'<tr><td colspan="5">Showing the first 800; narrow the search to see the rest.</td></tr>':'');
   }
-  [q,src,act].forEach(el=>el.addEventListener('input',render)); render();
+  [q,src,act,st].forEach(el=>el.addEventListener('input',render)); render();
 })();
 </script>
 </body>
