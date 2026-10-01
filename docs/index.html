@@ -30,7 +30,7 @@
 <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)">Joshua Attih · University of New Mexico · Year 2</div>
 <h1>Escalating AI Care: A Right to Holdout</h1>
 <h2 style="font-family:'IBM Plex Sans',sans-serif;font-weight:500;font-size:18px;margin:0 0 6px;color:var(--ink2)">The rules baseline</h2>
-<p class="sub">Three tables, one chain. A <b>rule</b> is a line in an official document that tells the clinician what to look for, how to classify it, or what to do (773; in the repository). A <b>state</b> is a rule that says something about the patient at a moment (259). A <b>statement</b> is a state after cleaning, and it is what the AI doctors rate (257): every statement describes one patient at one moment, in the source's own window, with the source's verdict removed, so that any disagreement recorded is a disagreement between doctors about a patient and not about what a sentence meant. Each statement keeps its row id, document and page.</p>
+<p class="sub">Three tables, one chain. A <b>rule</b> is a line in an official document that tells the clinician what to look for, how to classify it, or what to do (773; in the repository). A <b>state</b> is a rule that says something about the patient at a moment (259). A <b>statement</b> is a state after cleaning, and it is what the AI doctors rate (257): every statement describes one patient at one moment, in the source's own window, with the source's verdict removed, so that any disagreement recorded is a disagreement between doctors about a patient and not about what a sentence meant. Each statement keeps its row id, document and page, and the people its guideline says it applies to (the "Applies to" column, from <a href="populations.json">populations.json</a>).</p>
 <div class="bar">
   <select id="view"><option value="statements">Statements (257)</option><option value="states">States (259)</option></select>
   <input id="q" type="search" placeholder="Search (e.g. hand over, imminent, drinking days, past month)">
@@ -44,6 +44,7 @@
 (async function(){
   const states = await (await fetch('rules.json')).json();
   const stmts = await (await fetch('statements.json')).json();
+  const pops = await (await fetch('populations.json')).json();
   const view=document.getElementById('view'), q=document.getElementById('q'), src=document.getElementById('src'), act=document.getElementById('actor'), tb=document.querySelector('#t tbody'), th=document.getElementById('th'), count=document.getElementById('count');
   const esc=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
   const byId={}; states.forEach(r=>{byId[r.source_id]=byId[r.source_id]||r.source_name});
@@ -52,7 +53,7 @@
   function render(){
     const isS = view.value==='statements';
     act.style.display = isS ? 'none' : '';
-    th.innerHTML = isS ? '<tr><th>Statement id</th><th>Source</th><th>Page</th><th>Window</th><th>Statement</th></tr>' : '<tr><th>Rule id</th><th>Source</th><th>Page</th><th>Actor</th><th>State</th></tr>';
+    th.innerHTML = isS ? '<tr><th>Statement id</th><th>Source</th><th>Applies to</th><th>Page</th><th>Window</th><th>Statement</th></tr>' : '<tr><th>Rule id</th><th>Source</th><th>Page</th><th>Actor</th><th>State</th></tr>';
     const rows = isS ? stmts : states;
     const term=q.value.trim().toLowerCase(), s=src.value, a=act.value;
     const text=r=>isS?(r.statement+' '+r.window+' '+r.source_name):(r.rule+' '+r.source_name);
@@ -61,9 +62,9 @@
     const re=term?new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'):null;
     const hl=t=>re?esc(t).replace(re,'<mark>$1</mark>'):esc(t);
     tb.innerHTML=out.slice(0,800).map(r=>isS
-      ? `<tr><td class="id">${esc(r.statement_id)}</td><td>${esc(r.source_name)}</td><td class="pg">${esc(r.page)}</td><td>${esc(r.window)}</td><td class="rule">${hl(r.statement)}</td></tr>`
+      ? `<tr><td class="id">${esc(r.statement_id)}</td><td>${esc(r.source_name)}</td><td style="max-width:26ch;font-size:13px;color:var(--ink2)">${esc(pops[r.source_id]||'')}</td><td class="pg">${esc(r.page)}</td><td>${esc(r.window)}</td><td class="rule">${hl(r.statement)}</td></tr>`
       : `<tr><td class="id">${esc(r.rule_id)}</td><td>${esc(r.source_name)}</td><td class="pg">${esc(r.page)}</td><td>${esc(r.actor||'')}</td><td class="rule">${hl(r.rule)}</td></tr>`).join('')
-      +(out.length>800?'<tr><td colspan="5">Showing the first 800; narrow the search to see the rest.</td></tr>':'');
+      +(out.length>800?'<tr><td colspan="6">Showing the first 800; narrow the search to see the rest.</td></tr>':'');
   }
   [view,q,src,act].forEach(el=>el.addEventListener('input',render)); render();
 })();
