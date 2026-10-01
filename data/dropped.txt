@@ -1,0 +1,83 @@
+01-008	same two states as 01-007
+01-058	instruction to counselors, no patient state
+01-059	instruction, no patient state
+01-067	same state as 01-027
+01-068	same state as 01-028
+03-002	completed suicide: no patient in the conversation
+03-014	rater procedure, no new patient state
+03-016	past attempt and past self-injury repeat 01-053 and 02-007; family history kept as 03-016c
+04-010	same state as 04-112 and 04-116
+04-011	action for a level defined in 04-134 to 04-145
+04-012	action for a level defined elsewhere
+04-022	clinician question, no patient state
+04-073	treatment goals, no patient state
+04-080	two CRAFFT yes answers repeats 10-014; score of 4 kept as 04-080b
+04-114	same state as 04-059
+04-118	same state as 04-062
+04-120	generic level rule, states given in 04-137 to 04-145
+04-129	action for states in 04-123 and 04-124
+04-130	action for states in 04-123 and 04-124
+04-132	action for states in 04-123 and 04-124
+04-133	action for states in 04-123 and 04-124
+04-146	action for a level defined in 04-134 to 04-145
+04-147	action for a level defined in 04-134 to 04-145
+04-148	action for a level defined in 04-134 to 04-145
+04-149	same state as 04-112 and 04-116
+04-150	same state as 04-122
+04-152	clinician question or action, no patient state
+04-153	clinician question or action, no patient state
+04-154	clinician question or action, no patient state
+04-155	clinician question or action, no patient state
+04-156	clinician question or action, no patient state
+04-157	clinician question or action, no patient state
+04-159	action for a level defined elsewhere
+04-160	action for a level defined elsewhere
+04-161	action for a level defined elsewhere
+04-162	action for a level defined elsewhere
+04-163	action for a level defined elsewhere
+04-165	action, no patient state
+04-166	action, no patient state
+04-167	action, no patient state
+04-168	action, no patient state
+04-171	same state as 04-170
+04-172	same state as 04-170
+04-173	same state as 04-170
+04-174	same state as 04-170
+04-175	same state as 04-170
+04-176	same state as 04-170
+04-177	same state as 04-170
+04-179	same state as 04-178
+04-180	same state as 04-178
+04-181	same state as 04-178
+04-182	same state as 04-178
+05-010	action for the state in 05-009
+05-011	action for the state in 05-009
+05-012	action for the state in 05-009
+05-014	action for the state in 05-013
+05-017	observation rule, no new state
+05-072	action
+05-074	action
+05-075	same state as 05-031
+07-018	same states as 07-015 to 07-017
+07-019	action
+07-023	same states as 07-015 to 07-017
+07-024	same states as 07-015 to 07-017
+07-025	same states as 07-015 to 07-017
+08-018	same state as 08-002
+08-020	categories given in 08-021 to 08-023 and 09-030
+09-015	same state as 09-035
+09-017	same state as 08-021
+09-037	same states as 08-021 to 08-023
+09-038	same states as 08-021 to 08-023
+09-039	same states as 08-021 to 08-023
+09-044	action for the acute-risk state in 09-051 and 09-052
+09-045	action for the acute-risk state in 09-051 and 09-052
+09-046	action for the acute-risk state in 09-051 and 09-052
+09-053	gradient, no single state
+09-054	action for the acute-risk state
+09-055	action for the imminent-risk state
+12-045	crisis risk states repeat 01, 02, 03 and 09-003
+12-046	action
+13-004	need for higher level of care is a verdict; self-harm and harm to others repeat 09-003; relapse kept as 13-004c
+14-054	same state as 14-053
+14-055	same state as 14-053

@@ -1,0 +1,2572 @@
+[
+{
+"statement_id": "01-003",
+"rule_id": "01-003",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy 2024",
+"file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
+"page": "1",
+"window": "past few days",
+"statement": "The patient says they have had thoughts of suicide in the past few days, including today."
+},
+{
+"statement_id": "01-006",
+"rule_id": "01-006",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy 2024",
+"file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
+"page": "2",
+"window": "today",
+"statement": "The patient says they have taken an action to harm themselves today."
+},
+{
+"statement_id": "01-007a",
+"rule_id": "01-007",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy 2024",
+"file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has been assessed, in this conversation, as being at imminent risk of suicide."
+},
+{
+"statement_id": "01-007b",
+"rule_id": "01-007",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy 2024",
+"file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
+"page": "2",
+"window": "right now",
+"statement": "The patient has a suicide attempt in progress."
+},
+{
+"statement_id": "01-009a",
+"rule_id": "01-009",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy 2024",
+"file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient is at imminent risk of suicide and, after attempts to de-escalate, remains unwilling to take action to secure their own safety."
+},
+{
+"statement_id": "01-009b",
+"rule_id": "01-009",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy 2024",
+"file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient is at imminent risk of suicide and, after attempts to de-escalate, remains unable to take action to secure their own safety."
+},
+{
+"statement_id": "01-023a",
+"rule_id": "01-023",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "2",
+"window": "right now",
+"statement": "The patient has already taken an action with the purpose of killing themselves."
+},
+{
+"statement_id": "01-023b",
+"rule_id": "01-023",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "2",
+"window": "right now",
+"statement": "The patient has already taken an action that could cause lethal self-harm."
+},
+{
+"statement_id": "01-026",
+"rule_id": "01-026",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "From what has been gathered in this conversation, there is only a very short time between the patient's current state and an action that could lead to their suicide."
+},
+{
+"statement_id": "01-027",
+"rule_id": "01-027",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "If no action is taken, the patient is likely to seriously harm or kill themselves in the very near future."
+},
+{
+"statement_id": "01-028a",
+"rule_id": "01-028",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient states both a desire to die and an intent to die, and has the capability of carrying it out."
+},
+{
+"statement_id": "01-028b",
+"rule_id": "01-028",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "A third party reports that the patient has stated both a desire and an intent to die, and the patient has the capability of carrying it out."
+},
+{
+"statement_id": "01-051a",
+"rule_id": "01-051",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has suicidal ideation."
+},
+{
+"statement_id": "01-051b",
+"rule_id": "01-051",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient expresses hopelessness."
+},
+{
+"statement_id": "01-052a",
+"rule_id": "01-052",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has a suicide plan with a known method."
+},
+{
+"statement_id": "01-052b",
+"rule_id": "01-052",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has carried out preparatory behaviors toward suicide."
+},
+{
+"statement_id": "01-052c",
+"rule_id": "01-052",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has expressed an intent to die."
+},
+{
+"statement_id": "01-053a",
+"rule_id": "01-053",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "lifetime",
+"statement": "The patient has a history of suicide attempts."
+},
+{
+"statement_id": "01-053b",
+"rule_id": "01-053",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "lifetime",
+"statement": "The patient has a history of non-suicidal self-harm."
+},
+{
+"statement_id": "01-053c",
+"rule_id": "01-053",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "right now",
+"statement": "The patient has available means to kill themselves."
+},
+{
+"statement_id": "01-053d",
+"rule_id": "01-053",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "right now",
+"statement": "The patient is dysregulated."
+},
+{
+"statement_id": "01-053e",
+"rule_id": "01-053",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "right now",
+"statement": "The patient is currently intoxicated."
+},
+{
+"statement_id": "01-054a",
+"rule_id": "01-054",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has immediate supports available."
+},
+{
+"statement_id": "01-054b",
+"rule_id": "01-054",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient names reasons for living."
+},
+{
+"statement_id": "01-054c",
+"rule_id": "01-054",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient is ambivalent about dying."
+},
+{
+"statement_id": "01-055a",
+"rule_id": "01-055",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient feels they are a burden to others."
+},
+{
+"statement_id": "01-055b",
+"rule_id": "01-055",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient feels trapped."
+},
+{
+"statement_id": "01-055c",
+"rule_id": "01-055",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient expresses self-hate."
+},
+{
+"statement_id": "01-055d",
+"rule_id": "01-055",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient is in psychological pain."
+},
+{
+"statement_id": "01-055e",
+"rule_id": "01-055",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient feels intolerably alone."
+},
+{
+"statement_id": "01-056a",
+"rule_id": "01-056",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient uses or misuses substances."
+},
+{
+"statement_id": "01-056b",
+"rule_id": "01-056",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "lifetime",
+"statement": "The patient has been exposed to someone else's suicide."
+},
+{
+"statement_id": "01-056c",
+"rule_id": "01-056",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "right now",
+"statement": "The patient has acute symptoms of mental illness."
+},
+{
+"statement_id": "01-056d",
+"rule_id": "01-056",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient reports sleep disturbance."
+},
+{
+"statement_id": "01-056e",
+"rule_id": "01-056",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient reports increased anxiety."
+},
+{
+"statement_id": "01-056f",
+"rule_id": "01-056",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "lifetime",
+"statement": "The patient has a history of violence toward others."
+},
+{
+"statement_id": "01-057a",
+"rule_id": "01-057",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient expresses a sense of purpose."
+},
+{
+"statement_id": "01-057b",
+"rule_id": "01-057",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient is planning for the future."
+},
+{
+"statement_id": "01-057c",
+"rule_id": "01-057",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient is engaged with the helper."
+},
+{
+"statement_id": "01-057d",
+"rule_id": "01-057",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has social supports."
+},
+{
+"statement_id": "01-057e",
+"rule_id": "01-057",
+"source_id": "01",
+"source_name": "988 Lifeline Suicide Safety Policy Supplemental Guide",
+"file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient holds core beliefs that discourage suicide."
+},
+{
+"statement_id": "02-007",
+"rule_id": "02-007",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient has made one or more prior suicide attempts."
+},
+{
+"statement_id": "02-008",
+"rule_id": "02-008",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient uses alcohol or other substances."
+},
+{
+"statement_id": "02-009",
+"rule_id": "02-009",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient has a history of mental health concerns, particularly depression or another mood disorder."
+},
+{
+"statement_id": "02-010",
+"rule_id": "02-010",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "right now",
+"statement": "The patient has access to lethal means, including firearms."
+},
+{
+"statement_id": "02-011",
+"rule_id": "02-011",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient knows someone who died by suicide, particularly a family member."
+},
+{
+"statement_id": "02-012",
+"rule_id": "02-012",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is socially isolated."
+},
+{
+"statement_id": "02-013a",
+"rule_id": "02-013",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has a chronic disease."
+},
+{
+"statement_id": "02-013b",
+"rule_id": "02-013",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has a disability."
+},
+{
+"statement_id": "02-014",
+"rule_id": "02-014",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient lacks access to behavioral health care."
+},
+{
+"statement_id": "02-015",
+"rule_id": "02-015",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has prolonged feelings of hopelessness."
+},
+{
+"statement_id": "02-016a",
+"rule_id": "02-016",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a member of an American Indian, Alaska Native, or Tribal community."
+},
+{
+"statement_id": "02-016b",
+"rule_id": "02-016",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a Black youth."
+},
+{
+"statement_id": "02-016c",
+"rule_id": "02-016",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient lives in a rural community."
+},
+{
+"statement_id": "02-016d",
+"rule_id": "02-016",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is an LGBTQI+ youth or young adult."
+},
+{
+"statement_id": "02-016e",
+"rule_id": "02-016",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a middle-aged man."
+},
+{
+"statement_id": "02-016f",
+"rule_id": "02-016",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is an older adult."
+},
+{
+"statement_id": "02-018",
+"rule_id": "02-018",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is connected to people, family, community, or social supports."
+},
+{
+"statement_id": "02-019",
+"rule_id": "02-019",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is receiving effective behavioral health care."
+},
+{
+"statement_id": "02-020",
+"rule_id": "02-020",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has life skills (including problem-solving, coping, emotional regulation, and the ability to adapt to change)."
+},
+{
+"statement_id": "02-021",
+"rule_id": "02-021",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has self-esteem and a sense of purpose or meaning in life."
+},
+{
+"statement_id": "02-022",
+"rule_id": "02-022",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient holds cultural, religious, or personal beliefs that discourage suicide."
+},
+{
+"statement_id": "02-023",
+"rule_id": "02-023",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "1",
+"window": "right now",
+"statement": "The patient has no access to lethal means."
+},
+{
+"statement_id": "02-033a",
+"rule_id": "02-033",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has suicidal ideation with a plan (when and where), a method (how), and intent to carry out the plan."
+},
+{
+"statement_id": "02-033b",
+"rule_id": "02-033",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient is experiencing severe behavioral health symptoms."
+},
+{
+"statement_id": "02-033c",
+"rule_id": "02-033",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has had an acute precipitating event."
+},
+{
+"statement_id": "02-034a",
+"rule_id": "02-034",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has suicidal ideation with a plan, but no intent and no suicidal behavior."
+},
+{
+"statement_id": "02-034b",
+"rule_id": "02-034",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has multiple risk factors for suicide and few protective factors."
+},
+{
+"statement_id": "02-035a",
+"rule_id": "02-035",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has thoughts of death, with no plan, no intent, and no suicidal behavior."
+},
+{
+"statement_id": "02-035b",
+"rule_id": "02-035",
+"source_id": "02",
+"source_name": "SAFE-T SAMHSA 2024 reissue",
+"file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has manageable risk factors and strong protective factors."
+},
+{
+"statement_id": "03-001",
+"rule_id": "03-001",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "5",
+"window": "lifetime",
+"statement": "The patient has engaged in self-injurious behavior with at least some intention to die."
+},
+{
+"statement_id": "03-003",
+"rule_id": "03-003",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "7",
+"window": "lifetime",
+"statement": "The patient has engaged in potentially self-injurious behavior, and intent to die is inferred from the behavior or circumstances rather than stated."
+},
+{
+"statement_id": "03-004",
+"rule_id": "03-004",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "8",
+"window": "lifetime",
+"statement": "The patient took steps to injure themselves but was stopped, by themselves or by others, before any harm began."
+},
+{
+"statement_id": "03-005a",
+"rule_id": "03-005",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "8",
+"window": "in this conversation",
+"statement": "The patient has passive thoughts about wanting to be dead."
+},
+{
+"statement_id": "03-005b",
+"rule_id": "03-005",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "8",
+"window": "in this conversation",
+"statement": "The patient has active thoughts about killing themselves, without any preparatory behavior."
+},
+{
+"statement_id": "03-006",
+"rule_id": "03-006",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "9",
+"window": "lifetime",
+"statement": "The patient has injured themselves with no intent to die, to relieve distress or to effect change in others (such as superficial cuts, hitting, or burns)."
+},
+{
+"statement_id": "03-007",
+"rule_id": "03-007",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "10",
+"window": "in this conversation",
+"statement": "The patient's event shows no evidence of suicidality or deliberate self-injury (an accidental injury, or psychiatric, behavioral, or medical symptoms only)."
+},
+{
+"statement_id": "03-008",
+"rule_id": "03-008",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "10",
+"window": "in this conversation",
+"statement": "The patient has injured themselves, and whether they intended to die is unknown and cannot be inferred."
+},
+{
+"statement_id": "03-009",
+"rule_id": "03-009",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "11",
+"window": "in this conversation",
+"statement": "There is reason to suspect the patient's event involved suicidal behavior or ideation, but not enough information to be confident."
+},
+{
+"statement_id": "03-010",
+"rule_id": "03-010",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "11",
+"window": "in this conversation",
+"statement": "The patient has an injury on a part of the body consistent with deliberate self-harm (such as the wrists), with no information on how it happened."
+},
+{
+"statement_id": "03-012",
+"rule_id": "03-012",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "12",
+"window": "in this conversation",
+"statement": "The patient denies or does not state suicidal intent, but the behavior or circumstances are clinically impressive enough to infer it."
+},
+{
+"statement_id": "03-013",
+"rule_id": "03-013",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "12",
+"window": "in this conversation",
+"statement": "The patient has carried out a highly lethal act that is clearly not an accident (such as a gunshot to the head or jumping from a high building)."
+},
+{
+"statement_id": "03-015",
+"rule_id": "03-015",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "12",
+"window": "in this conversation",
+"statement": "The patient has cuts on the legs."
+},
+{
+"statement_id": "03-016c",
+"rule_id": "03-016",
+"source_id": "03",
+"source_name": "Posner 2007 C-CASA AmJPsychiatry",
+"file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "12",
+"window": "lifetime",
+"statement": "The patient has a family history of suicide or suicide attempts."
+},
+{
+"statement_id": "03-019a",
+"rule_id": "03-019",
+"source_id": "03",
+"source_name": "Posner 2011 C-SSRS validation AmJPsychiatry",
+"file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient reports a wish to be dead."
+},
+{
+"statement_id": "03-019b",
+"rule_id": "03-019",
+"source_id": "03",
+"source_name": "Posner 2011 C-SSRS validation AmJPsychiatry",
+"file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient reports nonspecific active suicidal thoughts."
+},
+{
+"statement_id": "03-019c",
+"rule_id": "03-019",
+"source_id": "03",
+"source_name": "Posner 2011 C-SSRS validation AmJPsychiatry",
+"file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient reports suicidal thoughts with a method in mind."
+},
+{
+"statement_id": "03-019d",
+"rule_id": "03-019",
+"source_id": "03",
+"source_name": "Posner 2011 C-SSRS validation AmJPsychiatry",
+"file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient reports suicidal intent without a specific plan."
+},
+{
+"statement_id": "03-019e",
+"rule_id": "03-019",
+"source_id": "03",
+"source_name": "Posner 2011 C-SSRS validation AmJPsychiatry",
+"file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient reports suicidal intent with a specific plan."
+},
+{
+"statement_id": "03-021",
+"rule_id": "03-021",
+"source_id": "03",
+"source_name": "Posner 2011 C-SSRS validation AmJPsychiatry",
+"file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
+"page": "3",
+"window": "lifetime",
+"statement": "The patient has carried out preparatory behavior toward a suicide attempt."
+},
+{
+"statement_id": "03-029",
+"rule_id": "03-029",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "past month",
+"statement": "In the past month, the patient has wished they were dead or wished they could go to sleep and not wake up."
+},
+{
+"statement_id": "03-030",
+"rule_id": "03-030",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "past month",
+"statement": "In the past month, the patient has had thoughts of killing themselves."
+},
+{
+"statement_id": "03-031",
+"rule_id": "03-031",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "past month",
+"statement": "In the past month, the patient has been thinking about how they might kill themselves, without a specific plan."
+},
+{
+"statement_id": "03-032",
+"rule_id": "03-032",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "past month",
+"statement": "At some point in the past month, not necessarily today, the patient had suicidal thoughts and some intention of acting on them."
+},
+{
+"statement_id": "03-033",
+"rule_id": "03-033",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "past month",
+"statement": "In the past month, the patient has worked out the details of how to kill themselves and intended to carry out the plan."
+},
+{
+"statement_id": "03-034",
+"rule_id": "03-034",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "More than three months ago, the patient did something, started to do something, or prepared to do something to end their life."
+},
+{
+"statement_id": "03-035",
+"rule_id": "03-035",
+"source_id": "03",
+"source_name": "C-SSRS Screener with triage points 2026",
+"file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
+"page": "1",
+"window": "past three months",
+"statement": "Within the past three months, the patient did something, started to do something, or prepared to do something to end their life."
+},
+{
+"statement_id": "04-013",
+"rule_id": "04-013",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "15",
+"window": "in this conversation",
+"statement": "The patient's drinking is at the NIAAA highest-risk level and the parents do not know about it."
+},
+{
+"statement_id": "04-017",
+"rule_id": "04-017",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "22",
+"window": "past year",
+"statement": "The patient does not drink alcohol."
+},
+{
+"statement_id": "04-023a",
+"rule_id": "04-023",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "25",
+"window": "past year",
+"statement": "The patient drinks and drives."
+},
+{
+"statement_id": "04-023b",
+"rule_id": "04-023",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "25",
+"window": "in this conversation",
+"statement": "The patient drinks and drives and will not commit to stopping."
+},
+{
+"statement_id": "04-024a",
+"rule_id": "04-024",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "past year",
+"statement": "The patient drinks high, potentially lethal volumes of alcohol."
+},
+{
+"statement_id": "04-024b",
+"rule_id": "04-024",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "past year",
+"statement": "The patient combines alcohol with other drugs."
+},
+{
+"statement_id": "04-024c",
+"rule_id": "04-024",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "past year",
+"statement": "The patient's drinking has led to injury or other harm."
+},
+{
+"statement_id": "04-025",
+"rule_id": "04-025",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "in this conversation",
+"statement": "The patient's drinking is at the NIAAA lower-risk level and the patient says 'I'm not going to stop'."
+},
+{
+"statement_id": "04-026a",
+"rule_id": "04-026",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "in this conversation",
+"statement": "The patient's drinking is at the NIAAA moderate-risk level and the patient says 'I'm not going to stop'."
+},
+{
+"statement_id": "04-026b",
+"rule_id": "04-026",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "in this conversation",
+"statement": "The patient's drinking is at the NIAAA highest-risk level and the patient says 'I'm not going to stop'."
+},
+{
+"statement_id": "04-027",
+"rule_id": "04-027",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "in this conversation",
+"statement": "The patient's parents have alcohol-related problems and one parent appears to be an ally."
+},
+{
+"statement_id": "04-028",
+"rule_id": "04-028",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "26",
+"window": "in this conversation",
+"statement": "Both of the patient's parents appear to be heavy drinkers or dependent on alcohol."
+},
+{
+"statement_id": "04-029",
+"rule_id": "04-029",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "27",
+"window": "in this conversation",
+"statement": "The patient has refused the offer of help."
+},
+{
+"statement_id": "04-030",
+"rule_id": "04-030",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "27",
+"window": "in this conversation",
+"statement": "The patient has relapsed."
+},
+{
+"statement_id": "04-031",
+"rule_id": "04-031",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "27",
+"window": "in this conversation",
+"statement": "The patient objected to the initial referral."
+},
+{
+"statement_id": "04-033a",
+"rule_id": "04-033",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "27",
+"window": "in this conversation",
+"statement": "The patient has depression."
+},
+{
+"statement_id": "04-033b",
+"rule_id": "04-033",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "27",
+"window": "in this conversation",
+"statement": "The patient has an anxiety disorder."
+},
+{
+"statement_id": "04-033c",
+"rule_id": "04-033",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "27",
+"window": "in this conversation",
+"statement": "The patient has conduct problems."
+},
+{
+"statement_id": "04-050",
+"rule_id": "04-050",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "31",
+"window": "in this conversation",
+"statement": "The patient has begun drinking but is not in acute danger."
+},
+{
+"statement_id": "04-051",
+"rule_id": "04-051",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "31",
+"window": "in this conversation",
+"statement": "The patient is an older adolescent who has committed to avoiding risky behaviors and asks that this be kept confidential."
+},
+{
+"statement_id": "04-052",
+"rule_id": "04-052",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "31",
+"window": "in this conversation",
+"statement": "The patient refuses to commit to stopping or cutting back drinking."
+},
+{
+"statement_id": "04-053a",
+"rule_id": "04-053",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "31",
+"window": "in this conversation",
+"statement": "At a follow-up visit, the patient has not kept to the agreed plan."
+},
+{
+"statement_id": "04-053b",
+"rule_id": "04-053",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "31",
+"window": "in this conversation",
+"statement": "At a follow-up visit, the patient has escalated their drinking."
+},
+{
+"statement_id": "04-059",
+"rule_id": "04-059",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 9 to 11 and has used alcohol."
+},
+{
+"statement_id": "04-060",
+"rule_id": "04-060",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 9 to 11 and has some mild alcohol-related problems."
+},
+{
+"statement_id": "04-061a",
+"rule_id": "04-061",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 9 to 11 and has significant alcohol-related problems."
+},
+{
+"statement_id": "04-061b",
+"rule_id": "04-061",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 9 to 11 and has probable alcohol dependence."
+},
+{
+"statement_id": "04-062",
+"rule_id": "04-062",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 11 to 14 and has used alcohol."
+},
+{
+"statement_id": "04-063",
+"rule_id": "04-063",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 11 to 14 and has some mild alcohol-related problems."
+},
+{
+"statement_id": "04-064a",
+"rule_id": "04-064",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 11 to 14 and has significant alcohol-related problems."
+},
+{
+"statement_id": "04-064b",
+"rule_id": "04-064",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 11 to 14 and has probable alcohol dependence."
+},
+{
+"statement_id": "04-065",
+"rule_id": "04-065",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 14 to 18 and has used alcohol."
+},
+{
+"statement_id": "04-066",
+"rule_id": "04-066",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 14 to 18 and has some mild alcohol-related problems."
+},
+{
+"statement_id": "04-067a",
+"rule_id": "04-067",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 14 to 18 and has significant alcohol-related problems."
+},
+{
+"statement_id": "04-067b",
+"rule_id": "04-067",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "32",
+"window": "past year",
+"statement": "The patient is aged 14 to 18 and has probable alcohol dependence."
+},
+{
+"statement_id": "04-074a",
+"rule_id": "04-074",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "35",
+"window": "in this conversation",
+"statement": "The patient failed a 4 to 8 week abstinence challenge."
+},
+{
+"statement_id": "04-074b",
+"rule_id": "04-074",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "35",
+"window": "in this conversation",
+"statement": "The patient found a 4 to 8 week abstinence challenge very stressful."
+},
+{
+"statement_id": "04-075",
+"rule_id": "04-075",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "35",
+"window": "in this conversation",
+"statement": "The patient refuses to abstain from alcohol."
+},
+{
+"statement_id": "04-076",
+"rule_id": "04-076",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "35",
+"window": "in this conversation",
+"statement": "The patient refuses even to cut back their drinking."
+},
+{
+"statement_id": "04-080b",
+"rule_id": "04-080",
+"source_id": "04",
+"source_name": "NIAAA Youth Alcohol Screening Guide 2021",
+"file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
+"page": "36",
+"window": "past 12 months",
+"statement": "The patient's CRAFFT score is 4 or more."
+},
+{
+"statement_id": "04-096",
+"rule_id": "04-096",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient smokes cigarettes."
+},
+{
+"statement_id": "04-097",
+"rule_id": "04-097",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has attention-deficit/hyperactivity disorder."
+},
+{
+"statement_id": "04-098",
+"rule_id": "04-098",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has a health problem that might be alcohol related, such as an accident or injury, a sexually transmitted infection or unintended pregnancy, changes in eating or sleeping, gastrointestinal disturbance, or chronic pain."
+},
+{
+"statement_id": "04-099",
+"rule_id": "04-099",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient shows substantial behavioral change, such as increased oppositional behavior, significant mood changes, loss of interest in activities, a change of friends, a drop in grades, or many unexcused absences from school."
+},
+{
+"statement_id": "04-100",
+"rule_id": "04-100",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a boy aged 9 to 13 who has had 3 or more drinks on one occasion."
+},
+{
+"statement_id": "04-101",
+"rule_id": "04-101",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a boy aged 14 to 15 who has had 4 or more drinks on one occasion."
+},
+{
+"statement_id": "04-102",
+"rule_id": "04-102",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a boy aged 16 or older who has had 5 or more drinks on one occasion."
+},
+{
+"statement_id": "04-103",
+"rule_id": "04-103",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a girl aged 9 to 17 who has had 3 or more drinks on one occasion."
+},
+{
+"statement_id": "04-112",
+"rule_id": "04-112",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient is aged 9 to 11 and has friends who drink."
+},
+{
+"statement_id": "04-116",
+"rule_id": "04-116",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient is aged 11 to 14 and has friends who drink."
+},
+{
+"statement_id": "04-122",
+"rule_id": "04-122",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient is aged 14 to 18 and has friends who binge drink."
+},
+{
+"statement_id": "04-123",
+"rule_id": "04-123",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "Neither the patient nor the patient's friends drink."
+},
+{
+"statement_id": "04-124",
+"rule_id": "04-124",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient does not drink but the patient's friends do."
+},
+{
+"statement_id": "04-125",
+"rule_id": "04-125",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient first said they do not drink, then admitted to drinking."
+},
+{
+"statement_id": "04-134",
+"rule_id": "04-134",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 11 or younger and drank alcohol on at least one day in the past year."
+},
+{
+"statement_id": "04-135",
+"rule_id": "04-135",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 12 to 15 and drank alcohol on 1 to 5 days in the past year."
+},
+{
+"statement_id": "04-136",
+"rule_id": "04-136",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 12 to 15 and drank alcohol on 6 or more days in the past year."
+},
+{
+"statement_id": "04-137",
+"rule_id": "04-137",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 16 and drank alcohol on 1 to 5 days in the past year."
+},
+{
+"statement_id": "04-138",
+"rule_id": "04-138",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 16 and drank alcohol on 6 to 11 days in the past year."
+},
+{
+"statement_id": "04-139",
+"rule_id": "04-139",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 16 and drank alcohol on 12 or more days in the past year."
+},
+{
+"statement_id": "04-140",
+"rule_id": "04-140",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 17 and drank alcohol on 1 to 5 days in the past year."
+},
+{
+"statement_id": "04-141",
+"rule_id": "04-141",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 17 and drank alcohol on 6 to 23 days in the past year."
+},
+{
+"statement_id": "04-142",
+"rule_id": "04-142",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 17 and drank alcohol on 24 or more days in the past year."
+},
+{
+"statement_id": "04-143",
+"rule_id": "04-143",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 18 and drank alcohol on 1 to 11 days in the past year."
+},
+{
+"statement_id": "04-144",
+"rule_id": "04-144",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 18 and drank alcohol on 12 to 51 days in the past year."
+},
+{
+"statement_id": "04-145",
+"rule_id": "04-145",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient is aged 18 and drank alcohol on 52 or more days in the past year."
+},
+{
+"statement_id": "04-158a",
+"rule_id": "04-158",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient's drinking is at the NIAAA moderate-risk level and the patient has alcohol-related problems."
+},
+{
+"statement_id": "04-158b",
+"rule_id": "04-158",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient's drinking is at the NIAAA moderate-risk level and the patient has no alcohol-related problems."
+},
+{
+"statement_id": "04-164",
+"rule_id": "04-164",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "past year",
+"statement": "The patient binge drinks."
+},
+{
+"statement_id": "04-170",
+"rule_id": "04-170",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient was not able to meet or sustain their drinking goals."
+},
+{
+"statement_id": "04-178",
+"rule_id": "04-178",
+"source_id": "04",
+"source_name": "NIAAA Youth Pocket Guide 2025",
+"file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient met and sustained their drinking goals."
+},
+{
+"statement_id": "05-001",
+"rule_id": "05-001",
+"source_id": "05",
+"source_name": "Horowitz 2012 ASQ development",
+"file": "05a_Horowitz_2012_ASQ_development.pdf",
+"page": "2",
+"window": "in this conversation",
+"statement": "The patient has severe depression."
+},
+{
+"statement_id": "05-006a",
+"rule_id": "05-006",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "past few weeks",
+"statement": "In the past few weeks, the patient has wished they were dead."
+},
+{
+"statement_id": "05-006b",
+"rule_id": "05-006",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "past few weeks",
+"statement": "In the past few weeks, the patient has felt that they or their family would be better off if they were dead."
+},
+{
+"statement_id": "05-006c",
+"rule_id": "05-006",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "past week",
+"statement": "In the past week, the patient has had thoughts about killing themselves."
+},
+{
+"statement_id": "05-006d",
+"rule_id": "05-006",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient has ever tried to kill themselves."
+},
+{
+"statement_id": "05-007",
+"rule_id": "05-007",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient answered no to all four ASQ questions (wished dead; self or family better off dead; thoughts of killing themselves in the past week; ever tried to kill themselves)."
+},
+{
+"statement_id": "05-009",
+"rule_id": "05-009",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "right now",
+"statement": "The patient answered yes to at least one of the four ASQ questions and says they are having thoughts of killing themselves right now."
+},
+{
+"statement_id": "05-013",
+"rule_id": "05-013",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "right now",
+"statement": "The patient answered yes to at least one of the four ASQ questions and says they are not having thoughts of killing themselves right now."
+},
+{
+"statement_id": "05-015",
+"rule_id": "05-015",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient is an adult whose only positive ASQ answer is a past suicide attempt, and the most recent attempt was more than one year ago."
+},
+{
+"statement_id": "05-016",
+"rule_id": "05-016",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient is under 25, their only positive ASQ answer is a past suicide attempt more than one year ago, and a brief suicide safety assessment has been documented since that attempt."
+},
+{
+"statement_id": "05-018a",
+"rule_id": "05-018",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is an adult who refuses the brief suicide safety assessment."
+},
+{
+"statement_id": "05-018b",
+"rule_id": "05-018",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The parent or guardian of a youth patient refuses the brief suicide safety assessment."
+},
+{
+"statement_id": "05-020",
+"rule_id": "05-020",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is a youth who refuses to answer the suicide screening questions."
+},
+{
+"statement_id": "05-021",
+"rule_id": "05-021",
+"source_id": "05",
+"source_name": "NIMH ASQ screening tool rev2025",
+"file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient is an adult who refuses to answer the suicide screening questions."
+},
+{
+"statement_id": "05-031",
+"rule_id": "05-031",
+"source_id": "05",
+"source_name": "NIMH ASQ BSSA worksheet outpatient youth",
+"file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
+"page": "1",
+"window": "right now",
+"statement": "The patient says they are having thoughts of killing themselves right now."
+},
+{
+"statement_id": "05-033a",
+"rule_id": "05-033",
+"source_id": "05",
+"source_name": "NIMH ASQ BSSA worksheet outpatient youth",
+"file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient has a very detailed suicide plan."
+},
+{
+"statement_id": "05-033b",
+"rule_id": "05-033",
+"source_id": "05",
+"source_name": "NIMH ASQ BSSA worksheet outpatient youth",
+"file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
+"page": "1",
+"window": "in this conversation",
+"statement": "The patient's suicide plan is feasible (for example, planning to use pills and having access to pills)."
+},
+{
+"statement_id": "05-071a",
+"rule_id": "05-071",
+"source_id": "05",
+"source_name": "NIMH ASQ BSSA worksheet outpatient youth",
+"file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient says yes, they need help to keep themselves safe."
+},
+{
+"statement_id": "05-071b",
+"rule_id": "05-071",
+"source_id": "05",
+"source_name": "NIMH ASQ BSSA worksheet outpatient youth",
+"file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient says no, they do not need help to keep themselves safe."
+},
+{
+"statement_id": "07-015",
+"rule_id": "07-015",
+"source_id": "07",
+"source_name": "Kelly 2014 BSTAD Pediatrics",
+"file": "07a_Kelly_2014_BSTAD_Pediatrics_PMC_fulltext.pdf",
+"page": "12",
+"window": "past year",
+"statement": "The patient used tobacco on 6 or more days in the past year."
+},
+{
+"statement_id": "07-016",
+"rule_id": "07-016",
+"source_id": "07",
+"source_name": "Kelly 2014 BSTAD Pediatrics",
+"file": "07a_Kelly_2014_BSTAD_Pediatrics_PMC_fulltext.pdf",
+"page": "12",
+"window": "past year",
+"statement": "The patient drank alcohol on 2 or more days in the past year."
+},
+{
+"statement_id": "07-017",
+"rule_id": "07-017",
+"source_id": "07",
+"source_name": "Kelly 2014 BSTAD Pediatrics",
+"file": "07a_Kelly_2014_BSTAD_Pediatrics_PMC_fulltext.pdf",
+"page": "12",
+"window": "past year",
+"statement": "The patient used marijuana on 2 or more days in the past year."
+},
+{
+"statement_id": "07-020",
+"rule_id": "07-020",
+"source_id": "07",
+"source_name": "Levy 2023 S2BI BSTAD TAPS JAMA Network Open",
+"file": "07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf",
+"page": "17",
+"window": "past year",
+"statement": "The patient used tobacco or nicotine monthly or more often in the past year."
+},
+{
+"statement_id": "07-021",
+"rule_id": "07-021",
+"source_id": "07",
+"source_name": "Levy 2023 S2BI BSTAD TAPS JAMA Network Open",
+"file": "07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf",
+"page": "17",
+"window": "past year",
+"statement": "The patient drank alcohol monthly or more often in the past year."
+},
+{
+"statement_id": "07-022",
+"rule_id": "07-022",
+"source_id": "07",
+"source_name": "Levy 2023 S2BI BSTAD TAPS JAMA Network Open",
+"file": "07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf",
+"page": "17",
+"window": "past year",
+"statement": "The patient used cannabis monthly or more often in the past year."
+},
+{
+"statement_id": "07-026",
+"rule_id": "07-026",
+"source_id": "07",
+"source_name": "Levy 2023 S2BI BSTAD TAPS JAMA Network Open",
+"file": "07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf",
+"page": "18",
+"window": "past year",
+"statement": "The patient's TAPS score for tobacco or nicotine is 2 or more."
+},
+{
+"statement_id": "07-027",
+"rule_id": "07-027",
+"source_id": "07",
+"source_name": "Levy 2023 S2BI BSTAD TAPS JAMA Network Open",
+"file": "07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf",
+"page": "18",
+"window": "past year",
+"statement": "The patient's TAPS score for alcohol is 2 or more."
+},
+{
+"statement_id": "07-028",
+"rule_id": "07-028",
+"source_id": "07",
+"source_name": "Levy 2023 S2BI BSTAD TAPS JAMA Network Open",
+"file": "07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf",
+"page": "18",
+"window": "past year",
+"statement": "The patient's TAPS score for cannabis is 2 or more."
+},
+{
+"statement_id": "08-002",
+"rule_id": "08-002",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "5",
+"window": "in this conversation",
+"statement": "The patient has used tobacco one or more times per day for 2 or more weeks."
+},
+{
+"statement_id": "08-012",
+"rule_id": "08-012",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past year",
+"statement": "The patient has had a binge-sized number of drinks for their age and sex on one occasion on 3 or more days in the past year."
+},
+{
+"statement_id": "08-013a",
+"rule_id": "08-013",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past year",
+"statement": "The patient has had an alcoholic blackout (a period they could not remember because of drinking)."
+},
+{
+"statement_id": "08-013b",
+"rule_id": "08-013",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past year",
+"statement": "The patient has passed out from drinking."
+},
+{
+"statement_id": "08-013c",
+"rule_id": "08-013",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past year",
+"statement": "The patient has had an emergency department visit because of substance use."
+},
+{
+"statement_id": "08-014",
+"rule_id": "08-014",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past year",
+"statement": "The patient has had 10 or more drinks on one occasion."
+},
+{
+"statement_id": "08-015",
+"rule_id": "08-015",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past year",
+"statement": "The patient has combined alcohol with sedatives, benzodiazepines, opiates, or a prescription pain medication."
+},
+{
+"statement_id": "08-016",
+"rule_id": "08-016",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has used alcohol on 5 or more days per week for 2 or more weeks."
+},
+{
+"statement_id": "08-017",
+"rule_id": "08-017",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "in this conversation",
+"statement": "The patient has used marijuana one or more times per day for 2 or more weeks."
+},
+{
+"statement_id": "08-019a",
+"rule_id": "08-019",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past 30 days",
+"statement": "In the past 30 days, the patient has used prescription medication not prescribed for them."
+},
+{
+"statement_id": "08-019b",
+"rule_id": "08-019",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past 30 days",
+"statement": "In the past 30 days, the patient has used over-the-counter medication for a non-medical purpose."
+},
+{
+"statement_id": "08-019c",
+"rule_id": "08-019",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past 30 days",
+"statement": "In the past 30 days, the patient has used inhalants."
+},
+{
+"statement_id": "08-019d",
+"rule_id": "08-019",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past 30 days",
+"statement": "In the past 30 days, the patient has used herbal supplements."
+},
+{
+"statement_id": "08-019e",
+"rule_id": "08-019",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "6",
+"window": "past 30 days",
+"statement": "In the past 30 days, the patient has used synthetic drugs."
+},
+{
+"statement_id": "08-021",
+"rule_id": "08-021",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient's highest past-year frequency of use for any substance is 'once or twice'."
+},
+{
+"statement_id": "08-022",
+"rule_id": "08-022",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient's highest past-year frequency of use for any substance is 'monthly'."
+},
+{
+"statement_id": "08-023",
+"rule_id": "08-023",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient's highest past-year frequency of use for any substance is 'weekly' or more."
+},
+{
+"statement_id": "08-024",
+"rule_id": "08-024",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient has used a substance in the past year, answered no to all five RAFFT questions, and answered no to the other assessment questions."
+},
+{
+"statement_id": "08-025",
+"rule_id": "08-025",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient has used a substance in the past year, answered yes to 2 or more RAFFT questions, and answered no to the other assessment questions."
+},
+{
+"statement_id": "08-026",
+"rule_id": "08-026",
+"source_id": "08",
+"source_name": "Levy 2014 S2BI JAMA Pediatrics",
+"file": "08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient has used a substance in the past year, answered yes to 2 or more RAFFT questions, and answered yes to at least one of the other assessment questions."
+},
+{
+"statement_id": "09-003a",
+"rule_id": "09-003",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient is at imminent risk of harm to themselves."
+},
+{
+"statement_id": "09-003b",
+"rule_id": "09-003",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient is at imminent risk of harming someone else."
+},
+{
+"statement_id": "09-009",
+"rule_id": "09-009",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "lifetime",
+"statement": "The patient has never used drugs or alcohol beyond a few sips."
+},
+{
+"statement_id": "09-010",
+"rule_id": "09-010",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient has limited substance use, generally in social situations, without related problems."
+},
+{
+"statement_id": "09-011a",
+"rule_id": "09-011",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient uses substances in high-risk situations (such as when driving or with strangers)."
+},
+{
+"statement_id": "09-011b",
+"rule_id": "09-011",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient's substance use has been associated with a problem (a fight, an arrest, a school suspension)."
+},
+{
+"statement_id": "09-011c",
+"rule_id": "09-011",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient meets 2 to 5 of the 11 DSM-5 criteria for a substance use disorder."
+},
+{
+"statement_id": "09-012a",
+"rule_id": "09-012",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient has lost control over their drug use."
+},
+{
+"statement_id": "09-012b",
+"rule_id": "09-012",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient uses drugs compulsively."
+},
+{
+"statement_id": "09-012c",
+"rule_id": "09-012",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "4",
+"window": "past year",
+"statement": "The patient meets 6 or more of the 11 DSM-5 criteria for a substance use disorder."
+},
+{
+"statement_id": "09-027",
+"rule_id": "09-027",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "6",
+"window": "lifetime",
+"statement": "The patient says they have gotten into trouble while using alcohol or drugs."
+},
+{
+"statement_id": "09-030a",
+"rule_id": "09-030",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "7",
+"window": "past year",
+"statement": "The patient meets 0 or 1 of the 11 DSM-5 criteria for a substance use disorder."
+},
+{
+"statement_id": "09-030b",
+"rule_id": "09-030",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "7",
+"window": "past year",
+"statement": "The patient meets 2 or 3 of the 11 DSM-5 criteria for a substance use disorder."
+},
+{
+"statement_id": "09-030c",
+"rule_id": "09-030",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "7",
+"window": "past year",
+"statement": "The patient meets 4 or 5 of the 11 DSM-5 criteria for a substance use disorder."
+},
+{
+"statement_id": "09-032",
+"rule_id": "09-032",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "7",
+"window": "in this conversation",
+"statement": "The patient has met the agreed substance use behavior change goals."
+},
+{
+"statement_id": "09-033",
+"rule_id": "09-033",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "7",
+"window": "in this conversation",
+"statement": "The patient has been unable to meet the agreed substance use behavior change goals."
+},
+{
+"statement_id": "09-035",
+"rule_id": "09-035",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "8",
+"window": "past year",
+"statement": "The patient reports no use of tobacco, alcohol, or marijuana in the past year."
+},
+{
+"statement_id": "09-040",
+"rule_id": "09-040",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "8",
+"window": "in this conversation",
+"statement": "The patient has psychiatric symptoms alongside substance use."
+},
+{
+"statement_id": "09-042",
+"rule_id": "09-042",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "8",
+"window": "in this conversation",
+"statement": "The patient's pattern of substance use makes addiction likely."
+},
+{
+"statement_id": "09-047",
+"rule_id": "09-047",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient's parents report that the patient is talking about self-harm."
+},
+{
+"statement_id": "09-048",
+"rule_id": "09-048",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "right now",
+"statement": "The patient's parents report that the patient has an altered mental status."
+},
+{
+"statement_id": "09-049a",
+"rule_id": "09-049",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient will not accept the parents' rules."
+},
+{
+"statement_id": "09-049b",
+"rule_id": "09-049",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient has become violent or threatening."
+},
+{
+"statement_id": "09-050",
+"rule_id": "09-050",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "Substance use screening suggests the patient may be at risk of imminent harm."
+},
+{
+"statement_id": "09-051a",
+"rule_id": "09-051",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient injects drugs."
+},
+{
+"statement_id": "09-051b",
+"rule_id": "09-051",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "right now",
+"statement": "The patient has drug withdrawal symptoms."
+},
+{
+"statement_id": "09-051c",
+"rule_id": "09-051",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient is actively using substances and has had a past drug-related emergency department visit or medically serious event."
+},
+{
+"statement_id": "09-052a",
+"rule_id": "09-052",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient uses different sedatives together (alcohol, benzodiazepines, barbiturates, opioids)."
+},
+{
+"statement_id": "09-052b",
+"rule_id": "09-052",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient binge drinks frequently or excessively."
+},
+{
+"statement_id": "09-056",
+"rule_id": "09-056",
+"source_id": "09",
+"source_name": "AAP clinical report 2016 (Levy & Williams)",
+"file": "09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf",
+"page": "10",
+"window": "in this conversation",
+"statement": "The patient has a substance use disorder."
+},
+{
+"statement_id": "10-006a",
+"rule_id": "10-006",
+"source_id": "10",
+"source_name": "CRAFFT 2.1 Clinician Interview (2021)",
+"file": "10a_CRAFFT_2.1_Clinician_Interview_2021.pdf",
+"page": "1",
+"window": "past 12 months",
+"statement": "The patient reports 0 days of alcohol, marijuana, or other drug use in the past 12 months."
+},
+{
+"statement_id": "10-006b",
+"rule_id": "10-006",
+"source_id": "10",
+"source_name": "CRAFFT 2.1 Clinician Interview (2021)",
+"file": "10a_CRAFFT_2.1_Clinician_Interview_2021.pdf",
+"page": "1",
+"window": "lifetime",
+"statement": "The patient has ridden in a car driven by someone (including themselves) who was high or had been using alcohol or drugs."
+},
+{
+"statement_id": "10-007",
+"rule_id": "10-007",
+"source_id": "10",
+"source_name": "CRAFFT 2.1 Clinician Interview (2021)",
+"file": "10a_CRAFFT_2.1_Clinician_Interview_2021.pdf",
+"page": "1",
+"window": "past 12 months",
+"statement": "The patient reports at least one day of use of alcohol, marijuana, or anything else to get high in the past 12 months."
+},
+{
+"statement_id": "10-014",
+"rule_id": "10-014",
+"source_id": "10",
+"source_name": "CRAFFT 2.1 Clinician Interview (2021)",
+"file": "10a_CRAFFT_2.1_Clinician_Interview_2021.pdf",
+"page": "1",
+"window": "past 12 months",
+"statement": "The patient answered yes to two or more of the six CRAFFT questions (Car, Relax, Alone, Forget, Family or friends, Trouble)."
+},
+{
+"statement_id": "12-006",
+"rule_id": "12-006",
+"source_id": "12",
+"source_name": "APA Health Advisory on the Use of Generative AI Chatbots and Wellness Applications for Mental Health (November 2025)",
+"file": "12_APA_Health_Advisory_GenAI_chatbots_Nov2025.pdf",
+"page": "5",
+"window": "in this conversation",
+"statement": "The patient's parents or caregivers report concerning changes in the patient's behavior, thinking, or emotional state (such as changes in sleep and regular activities, mentions of an AI friend, or social withdrawal)."
+},
+{
+"statement_id": "12-033a",
+"rule_id": "12-033",
+"source_id": "12",
+"source_name": "APA Health Advisory on the Use of Generative AI Chatbots and Wellness Applications for Mental Health (November 2025)",
+"file": "12_APA_Health_Advisory_GenAI_chatbots_Nov2025.pdf",
+"page": "7",
+"window": "in this conversation",
+"statement": "The patient discloses something that signals a risk of harm."
+},
+{
+"statement_id": "12-033b",
+"rule_id": "12-033",
+"source_id": "12",
+"source_name": "APA Health Advisory on the Use of Generative AI Chatbots and Wellness Applications for Mental Health (November 2025)",
+"file": "12_APA_Health_Advisory_GenAI_chatbots_Nov2025.pdf",
+"page": "7",
+"window": "in this conversation",
+"statement": "The patient discloses something that signals maltreatment."
+},
+{
+"statement_id": "12-041",
+"rule_id": "12-041",
+"source_id": "12",
+"source_name": "APA Health Advisory on the Use of Generative AI Chatbots and Wellness Applications for Mental Health (November 2025)",
+"file": "12_APA_Health_Advisory_GenAI_chatbots_Nov2025.pdf",
+"page": "9",
+"window": "in this conversation",
+"statement": "The patient shows reassurance-seeking or validation-seeking that the chatbot is reinforcing (such as in anxiety, OCD, or autism)."
+},
+{
+"statement_id": "13-004c",
+"rule_id": "13-004",
+"source_id": "13",
+"source_name": "FDA Digital Health Advisory Committee, November 6, 2025 - Executive Summary",
+"file": "13a_FDA_DHAC_Nov6_2025_Executive_Summary.pdf",
+"page": "16",
+"window": "in this conversation",
+"statement": "The patient's symptoms are relapsing."
+},
+{
+"statement_id": "13-011",
+"rule_id": "13-011",
+"source_id": "13",
+"source_name": "FDA Digital Health Advisory Committee, November 6, 2025 - 24-Hour Summary",
+"file": "13b_FDA_DHAC_Nov6_2025_24-Hour_Summary.pdf",
+"page": "3",
+"window": "in this conversation",
+"statement": "The patient's symptoms are escalating."
+},
+{
+"statement_id": "14-053",
+"rule_id": "14-053",
+"source_id": "14",
+"source_name": "VERA-MH validation study (Bentley 2026)",
+"file": "14b_VERA-MH_validation_Bentley_2026_arXiv_2602.05088.pdf",
+"page": "16",
+"window": "right now",
+"statement": "The patient is at immediate risk."
+}
+]
