@@ -1,15 +1,25 @@
-source_id,setting_id,setting
-00,T7,Chatbot conversation
-01,T5,Crisis line (call, chat or text)
-02,T2,Emergency department
-03,T4,Outpatient mental health clinic
-04,T1,Primary care clinic
-05,T2,Emergency department
-07,T1,Primary care clinic
-08,T1,Primary care clinic
-09,T1,Primary care clinic
-10,T1,Primary care clinic
-11,T7,Chatbot conversation
-12,T7,Chatbot conversation
-13,T7,Chatbot conversation
-14,T7,Chatbot conversation
+file,setting_ids,settings
+01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf,T5,"Crisis line (call, chat or text)"
+01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf,T5,"Crisis line (call, chat or text)"
+02_SAFE-T_SAMHSA_2024_reissue.pdf,T2;T3;T4,Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic
+03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf,T2;T3;T4,Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic
+03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf,T2;T3;T4,Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic
+03c_C-SSRS_Screener_with_triage_points_2026.pdf,T2;T3;T4;T5,"Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)"
+04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf,T1;T6,Primary care clinic; School health office
+04b_NIAAA_Youth_Pocket_Guide_2025.pdf,T1;T6,Primary care clinic; School health office
+05a_Horowitz_2012_ASQ_development.pdf,T2,Emergency department
+05b_NIMH_ASQ_screening_tool_rev2025.pdf,T2;T3;T4,Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic
+05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf,T4,Outpatient mental health clinic
+07a_Kelly_2014_BSTAD_Pediatrics_PMC_fulltext.pdf,T1,Primary care clinic
+07b_Levy_2023_S2BI_BSTAD_TAPS_JAMANetwOpen_PMC_fulltext.pdf,T1,Primary care clinic
+08_Levy_2014_S2BI_JAMAPediatrics_PMC_fulltext.pdf,T1,Primary care clinic
+09_AAP_2016_clinical_report_Levy_Williams_Pediatrics.pdf,T1,Primary care clinic
+10a_CRAFFT_2.1_Clinician_Interview_2021.pdf,T1,Primary care clinic
+11_McBain_2025_RAND_LLM_suicide_risk_PsychiatricServices_PMC_fulltext.pdf,T7,Chatbot conversation
+12_APA_Health_Advisory_GenAI_chatbots_Nov2025.pdf,T7,Chatbot conversation
+13a_FDA_DHAC_Nov6_2025_Executive_Summary.pdf,T7,Chatbot conversation
+13b_FDA_DHAC_Nov6_2025_24-Hour_Summary.pdf,T7,Chatbot conversation
+13c_FDA_DHAC_Nov6_2025_Discussion_Questions.pdf,T7,Chatbot conversation
+14a_VERA-MH_concept_paper_arXiv_2510.15297.pdf,T7,Chatbot conversation
+14b_VERA-MH_validation_Bentley_2026_arXiv_2602.05088.pdf,T7,Chatbot conversation
+00_Transluce_Mental_Health_Behavior_Report_Aug2026_webprint.pdf,T7,Chatbot conversation

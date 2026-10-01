@@ -1,8 +1,8 @@
 setting_id,setting,what_it_is,guidelines_that_name_it
-T1,Primary care clinic,"Scheduled visits with a known patient and a record; time to follow up at a later visit","04 NIAAA; 07 BSTAD; 08 S2BI; 09 AAP; 10 CRAFFT"
-T2,Emergency department,"Walk-in or ambulance arrival in a crisis now; often no prior record; the patient may not leave until assessed","05 ASQ (ED tool; Horowitz 2012 ED sample); 03 C-SSRS (adult ED validation); 02 SAFE-T (first contact)"
-T3,Inpatient psychiatric unit,"The patient is already admitted; assessment at admission and at discharge","05 ASQ (inpatient tool); 02 SAFE-T (at inpatient discharge)"
-T4,Outpatient mental health clinic,"Referred patients seen in regular sessions","05 ASQ (youth outpatient worksheet, 05c); 03 C-SSRS screener; 02 SAFE-T (with increased ideation)"
-T5,Crisis line (call, chat or text),"No face and no record; the conversation is all the counselor has","01 988 Lifeline"
-T6,School health office,"Students seen by a school nurse or counselor","04 NIAAA (ages 9 to 18; elementary, middle and high school bands)"
-T7,Chatbot conversation,"A person talking to an AI tool with no clinician present","00 Transluce; 11 RAND; 12 APA; 13 FDA; 14 VERA-MH"
+T1,Primary care clinic,Scheduled visits with a known patient and a record; time to follow up at a later visit,04 NIAAA; 07 BSTAD; 08 S2BI; 09 AAP; 10 CRAFFT
+T2,Emergency department,Walk-in or ambulance arrival in a crisis now; often no prior record; the patient may not leave until assessed,05 ASQ screening tool; 02 SAFE-T; 03 C-SSRS
+T3,Inpatient psychiatric unit,The patient is already admitted; assessment at admission and at discharge,05 ASQ screening tool; 02 SAFE-T; 03 C-SSRS
+T4,Outpatient mental health clinic,Referred patients seen in regular sessions,05 ASQ youth outpatient worksheet; 02 SAFE-T; 03 C-SSRS
+T5,"Crisis line (call, chat or text)",No face and no record; the conversation is all the counselor has,01 988 Lifeline; 03 C-SSRS
+T6,School health office,Students seen by a school nurse or counselor,04 NIAAA (school-age bands)
+T7,Chatbot conversation,A person talking to an AI tool with no clinician present,00 Transluce; 11 RAND; 12 APA; 13 FDA; 14 VERA-MH

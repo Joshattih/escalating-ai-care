@@ -7,7 +7,7 @@
 "file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
 "page": "1",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "past few days",
 "statement": "The patient says they have had thoughts of suicide in the past few days, including today."
 },
@@ -19,7 +19,7 @@
 "file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "today",
 "statement": "The patient says they have taken an action to harm themselves today."
 },
@@ -31,7 +31,7 @@
 "file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has been assessed, in this conversation, as being at imminent risk of suicide."
 },
@@ -43,7 +43,7 @@
 "file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient has a suicide attempt in progress."
 },
@@ -55,7 +55,7 @@
 "file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient is at imminent risk of suicide and, after attempts to de-escalate, remains unwilling to take action to secure their own safety."
 },
@@ -67,7 +67,7 @@
 "file": "01a_988_Lifeline_Suicide_Safety_Policy_2024.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient is at imminent risk of suicide and, after attempts to de-escalate, remains unable to take action to secure their own safety."
 },
@@ -79,7 +79,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient has already taken an action with the purpose of killing themselves."
 },
@@ -91,7 +91,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient has already taken an action that could cause lethal self-harm."
 },
@@ -103,7 +103,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "From what has been gathered in this conversation, there is only a very short time between the patient's current state and an action that could lead to their suicide."
 },
@@ -115,7 +115,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "2",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "If no action is taken, the patient is likely to seriously harm or kill themselves in the very near future."
 },
@@ -127,7 +127,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "3",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient states both a desire to die and an intent to die, and has the capability of carrying it out."
 },
@@ -139,7 +139,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "3",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "A third party reports that the patient has stated both a desire and an intent to die, and the patient has the capability of carrying it out."
 },
@@ -151,7 +151,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has suicidal ideation."
 },
@@ -163,7 +163,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient expresses hopelessness."
 },
@@ -175,7 +175,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has a suicide plan with a known method."
 },
@@ -187,7 +187,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has carried out preparatory behaviors toward suicide."
 },
@@ -199,7 +199,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has expressed an intent to die."
 },
@@ -211,7 +211,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "lifetime",
 "statement": "The patient has a history of suicide attempts."
 },
@@ -223,7 +223,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "lifetime",
 "statement": "The patient has a history of non-suicidal self-harm."
 },
@@ -235,7 +235,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient has available means to kill themselves."
 },
@@ -247,7 +247,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient is dysregulated."
 },
@@ -259,7 +259,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient is currently intoxicated."
 },
@@ -271,7 +271,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has immediate supports available."
 },
@@ -283,7 +283,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient names reasons for living."
 },
@@ -295,7 +295,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient is ambivalent about dying."
 },
@@ -307,7 +307,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient feels they are a burden to others."
 },
@@ -319,7 +319,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient feels trapped."
 },
@@ -331,7 +331,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient expresses self-hate."
 },
@@ -343,7 +343,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient is in psychological pain."
 },
@@ -355,7 +355,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient feels intolerably alone."
 },
@@ -367,7 +367,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient uses or misuses substances."
 },
@@ -379,7 +379,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "lifetime",
 "statement": "The patient has been exposed to someone else's suicide."
 },
@@ -391,7 +391,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "right now",
 "statement": "The patient has acute symptoms of mental illness."
 },
@@ -403,7 +403,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient reports sleep disturbance."
 },
@@ -415,7 +415,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient reports increased anxiety."
 },
@@ -427,7 +427,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "lifetime",
 "statement": "The patient has a history of violence toward others."
 },
@@ -439,7 +439,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient expresses a sense of purpose."
 },
@@ -451,7 +451,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient is planning for the future."
 },
@@ -463,7 +463,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient is engaged with the helper."
 },
@@ -475,7 +475,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient has social supports."
 },
@@ -487,7 +487,7 @@
 "file": "01b_988_Lifeline_Suicide_Safety_Policy_Supplemental_Guide.pdf",
 "page": "6",
 "applies_to": "Anyone who contacts the 988 Lifeline by call, chat or text; no age limit",
-"setting": "Crisis line (call",
+"setting": "Crisis line (call, chat or text)",
 "window": "in this conversation",
 "statement": "The patient holds core beliefs that discourage suicide."
 },
@@ -499,7 +499,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has made one or more prior suicide attempts."
 },
@@ -511,7 +511,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient uses alcohol or other substances."
 },
@@ -523,7 +523,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has a history of mental health concerns, particularly depression or another mood disorder."
 },
@@ -535,7 +535,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "right now",
 "statement": "The patient has access to lethal means, including firearms."
 },
@@ -547,7 +547,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient knows someone who died by suicide, particularly a family member."
 },
@@ -559,7 +559,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is socially isolated."
 },
@@ -571,7 +571,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has a chronic disease."
 },
@@ -583,7 +583,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has a disability."
 },
@@ -595,7 +595,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient lacks access to behavioral health care."
 },
@@ -607,7 +607,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has prolonged feelings of hopelessness."
 },
@@ -619,7 +619,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is a member of an American Indian, Alaska Native, or Tribal community."
 },
@@ -631,7 +631,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is a Black youth."
 },
@@ -643,7 +643,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient lives in a rural community."
 },
@@ -655,7 +655,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is an LGBTQI+ youth or young adult."
 },
@@ -667,7 +667,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is a middle-aged man."
 },
@@ -679,7 +679,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is an older adult."
 },
@@ -691,7 +691,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is connected to people, family, community, or social supports."
 },
@@ -703,7 +703,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is receiving effective behavioral health care."
 },
@@ -715,7 +715,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has life skills (including problem-solving, coping, emotional regulation, and the ability to adapt to change)."
 },
@@ -727,7 +727,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has self-esteem and a sense of purpose or meaning in life."
 },
@@ -739,7 +739,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient holds cultural, religious, or personal beliefs that discourage suicide."
 },
@@ -751,7 +751,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "1",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "right now",
 "statement": "The patient has no access to lethal means."
 },
@@ -763,7 +763,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has suicidal ideation with a plan (when and where), a method (how), and intent to carry out the plan."
 },
@@ -775,7 +775,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is experiencing severe behavioral health symptoms."
 },
@@ -787,7 +787,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has had an acute precipitating event."
 },
@@ -799,7 +799,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has suicidal ideation with a plan, but no intent and no suicidal behavior."
 },
@@ -811,7 +811,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has multiple risk factors for suicide and few protective factors."
 },
@@ -823,7 +823,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has thoughts of death, with no plan, no intent, and no suicidal behavior."
 },
@@ -835,7 +835,7 @@
 "file": "02_SAFE-T_SAMHSA_2024_reissue.pdf",
 "page": "2",
 "applies_to": "Any patient assessed for suicide risk, all ages; lists populations at increased risk from Black youth to older adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has manageable risk factors and strong protective factors."
 },
@@ -847,7 +847,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "5",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has engaged in self-injurious behavior with at least some intention to die."
 },
@@ -859,7 +859,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "7",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has engaged in potentially self-injurious behavior, and intent to die is inferred from the behavior or circumstances rather than stated."
 },
@@ -871,7 +871,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "8",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient took steps to injure themselves but was stopped, by themselves or by others, before any harm began."
 },
@@ -883,7 +883,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "8",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has passive thoughts about wanting to be dead."
 },
@@ -895,7 +895,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "8",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has active thoughts about killing themselves, without any preparatory behavior."
 },
@@ -907,7 +907,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "9",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has injured themselves with no intent to die, to relieve distress or to effect change in others (such as superficial cuts, hitting, or burns)."
 },
@@ -919,7 +919,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "10",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient's event shows no evidence of suicidality or deliberate self-injury (an accidental injury, or psychiatric, behavioral, or medical symptoms only)."
 },
@@ -931,7 +931,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "10",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has injured themselves, and whether they intended to die is unknown and cannot be inferred."
 },
@@ -943,7 +943,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "11",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "There is reason to suspect the patient's event involved suicidal behavior or ideation, but not enough information to be confident."
 },
@@ -955,7 +955,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "11",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has an injury on a part of the body consistent with deliberate self-harm (such as the wrists), with no information on how it happened."
 },
@@ -967,7 +967,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "12",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient denies or does not state suicidal intent, but the behavior or circumstances are clinically impressive enough to infer it."
 },
@@ -979,7 +979,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "12",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has carried out a highly lethal act that is clearly not an accident (such as a gunshot to the head or jumping from a high building)."
 },
@@ -991,7 +991,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "12",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has cuts on the legs."
 },
@@ -1003,7 +1003,7 @@
 "file": "03a_Posner_2007_C-CASA_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "12",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has a family history of suicide or suicide attempts."
 },
@@ -1015,7 +1015,7 @@
 "file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "3",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient reports a wish to be dead."
 },
@@ -1027,7 +1027,7 @@
 "file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "3",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient reports nonspecific active suicidal thoughts."
 },
@@ -1039,7 +1039,7 @@
 "file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "3",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient reports suicidal thoughts with a method in mind."
 },
@@ -1051,7 +1051,7 @@
 "file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "3",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient reports suicidal intent without a specific plan."
 },
@@ -1063,7 +1063,7 @@
 "file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "3",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient reports suicidal intent with a specific plan."
 },
@@ -1075,7 +1075,7 @@
 "file": "03b_Posner_2011_C-SSRS_validation_AmJPsychiatry_PMC_fulltext.pdf",
 "page": "3",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has carried out preparatory behavior toward a suicide attempt."
 },
@@ -1087,7 +1087,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "past month",
 "statement": "In the past month, the patient has wished they were dead or wished they could go to sleep and not wake up."
 },
@@ -1099,7 +1099,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "past month",
 "statement": "In the past month, the patient has had thoughts of killing themselves."
 },
@@ -1111,7 +1111,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "past month",
 "statement": "In the past month, the patient has been thinking about how they might kill themselves, without a specific plan."
 },
@@ -1123,7 +1123,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "past month",
 "statement": "At some point in the past month, not necessarily today, the patient had suicidal thoughts and some intention of acting on them."
 },
@@ -1135,7 +1135,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "past month",
 "statement": "In the past month, the patient has worked out the details of how to kill themselves and intended to carry out the plan."
 },
@@ -1147,7 +1147,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "lifetime",
 "statement": "More than three months ago, the patient did something, started to do something, or prepared to do something to end their life."
 },
@@ -1159,7 +1159,7 @@
 "file": "03c_C-SSRS_Screener_with_triage_points_2026.pdf",
 "page": "1",
 "applies_to": "Any person screened; no age limit on the screener. Validated in adolescents (ages 12 to 18 attempters, depressed adolescents) and adults in an emergency department",
-"setting": "Outpatient mental health clinic",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic; Crisis line (call, chat or text)",
 "window": "past three months",
 "statement": "Within the past three months, the patient did something, started to do something, or prepared to do something to end their life."
 },
@@ -1171,7 +1171,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "15",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's drinking is at the NIAAA highest-risk level and the parents do not know about it."
 },
@@ -1183,7 +1183,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "22",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient does not drink alcohol."
 },
@@ -1195,7 +1195,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "25",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient drinks and drives."
 },
@@ -1207,7 +1207,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "25",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient drinks and drives and will not commit to stopping."
 },
@@ -1219,7 +1219,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient drinks high, potentially lethal volumes of alcohol."
 },
@@ -1231,7 +1231,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient combines alcohol with other drugs."
 },
@@ -1243,7 +1243,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient's drinking has led to injury or other harm."
 },
@@ -1255,7 +1255,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's drinking is at the NIAAA lower-risk level and the patient says 'I'm not going to stop'."
 },
@@ -1267,7 +1267,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's drinking is at the NIAAA moderate-risk level and the patient says 'I'm not going to stop'."
 },
@@ -1279,7 +1279,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's drinking is at the NIAAA highest-risk level and the patient says 'I'm not going to stop'."
 },
@@ -1291,7 +1291,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's parents have alcohol-related problems and one parent appears to be an ally."
 },
@@ -1303,7 +1303,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "26",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "Both of the patient's parents appear to be heavy drinkers or dependent on alcohol."
 },
@@ -1315,7 +1315,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "27",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has refused the offer of help."
 },
@@ -1327,7 +1327,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "27",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has relapsed."
 },
@@ -1339,7 +1339,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "27",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient objected to the initial referral."
 },
@@ -1351,7 +1351,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "27",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has depression."
 },
@@ -1363,7 +1363,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "27",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has an anxiety disorder."
 },
@@ -1375,7 +1375,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "27",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has conduct problems."
 },
@@ -1387,7 +1387,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "31",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has begun drinking but is not in acute danger."
 },
@@ -1399,7 +1399,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "31",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is an older adolescent who has committed to avoiding risky behaviors and asks that this be kept confidential."
 },
@@ -1411,7 +1411,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "31",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient refuses to commit to stopping or cutting back drinking."
 },
@@ -1423,7 +1423,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "31",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "At a follow-up visit, the patient has not kept to the agreed plan."
 },
@@ -1435,7 +1435,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "31",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "At a follow-up visit, the patient has escalated their drinking."
 },
@@ -1447,7 +1447,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 9 to 11 and has used alcohol."
 },
@@ -1459,7 +1459,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 9 to 11 and has some mild alcohol-related problems."
 },
@@ -1471,7 +1471,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 9 to 11 and has significant alcohol-related problems."
 },
@@ -1483,7 +1483,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 9 to 11 and has probable alcohol dependence."
 },
@@ -1495,7 +1495,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 11 to 14 and has used alcohol."
 },
@@ -1507,7 +1507,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 11 to 14 and has some mild alcohol-related problems."
 },
@@ -1519,7 +1519,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 11 to 14 and has significant alcohol-related problems."
 },
@@ -1531,7 +1531,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 11 to 14 and has probable alcohol dependence."
 },
@@ -1543,7 +1543,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 14 to 18 and has used alcohol."
 },
@@ -1555,7 +1555,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 14 to 18 and has some mild alcohol-related problems."
 },
@@ -1567,7 +1567,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 14 to 18 and has significant alcohol-related problems."
 },
@@ -1579,7 +1579,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "32",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 14 to 18 and has probable alcohol dependence."
 },
@@ -1591,7 +1591,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "35",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient failed a 4 to 8 week abstinence challenge."
 },
@@ -1603,7 +1603,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "35",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient found a 4 to 8 week abstinence challenge very stressful."
 },
@@ -1615,7 +1615,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "35",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient refuses to abstain from alcohol."
 },
@@ -1627,7 +1627,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "35",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient refuses even to cut back their drinking."
 },
@@ -1639,7 +1639,7 @@
 "file": "04a_NIAAA_Youth_Alcohol_Screening_Guide_2021.pdf",
 "page": "36",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past 12 months",
 "statement": "The patient's CRAFFT score is 4 or more."
 },
@@ -1651,7 +1651,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient smokes cigarettes."
 },
@@ -1663,7 +1663,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has attention-deficit/hyperactivity disorder."
 },
@@ -1675,7 +1675,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient has a health problem that might be alcohol related, such as an accident or injury, a sexually transmitted infection or unintended pregnancy, changes in eating or sleeping, gastrointestinal disturbance, or chronic pain."
 },
@@ -1687,7 +1687,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient shows substantial behavioral change, such as increased oppositional behavior, significant mood changes, loss of interest in activities, a change of friends, a drop in grades, or many unexcused absences from school."
 },
@@ -1699,7 +1699,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is a boy aged 9 to 13 who has had 3 or more drinks on one occasion."
 },
@@ -1711,7 +1711,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is a boy aged 14 to 15 who has had 4 or more drinks on one occasion."
 },
@@ -1723,7 +1723,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is a boy aged 16 or older who has had 5 or more drinks on one occasion."
 },
@@ -1735,7 +1735,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "1",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is a girl aged 9 to 17 who has had 3 or more drinks on one occasion."
 },
@@ -1747,7 +1747,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is aged 9 to 11 and has friends who drink."
 },
@@ -1759,7 +1759,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is aged 11 to 14 and has friends who drink."
 },
@@ -1771,7 +1771,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient is aged 14 to 18 and has friends who binge drink."
 },
@@ -1783,7 +1783,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "Neither the patient nor the patient's friends drink."
 },
@@ -1795,7 +1795,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient does not drink but the patient's friends do."
 },
@@ -1807,7 +1807,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient first said they do not drink, then admitted to drinking."
 },
@@ -1819,7 +1819,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 11 or younger and drank alcohol on at least one day in the past year."
 },
@@ -1831,7 +1831,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 12 to 15 and drank alcohol on 1 to 5 days in the past year."
 },
@@ -1843,7 +1843,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 12 to 15 and drank alcohol on 6 or more days in the past year."
 },
@@ -1855,7 +1855,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 16 and drank alcohol on 1 to 5 days in the past year."
 },
@@ -1867,7 +1867,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 16 and drank alcohol on 6 to 11 days in the past year."
 },
@@ -1879,7 +1879,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 16 and drank alcohol on 12 or more days in the past year."
 },
@@ -1891,7 +1891,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 17 and drank alcohol on 1 to 5 days in the past year."
 },
@@ -1903,7 +1903,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 17 and drank alcohol on 6 to 23 days in the past year."
 },
@@ -1915,7 +1915,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 17 and drank alcohol on 24 or more days in the past year."
 },
@@ -1927,7 +1927,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 18 and drank alcohol on 1 to 11 days in the past year."
 },
@@ -1939,7 +1939,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 18 and drank alcohol on 12 to 51 days in the past year."
 },
@@ -1951,7 +1951,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient is aged 18 and drank alcohol on 52 or more days in the past year."
 },
@@ -1963,7 +1963,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's drinking is at the NIAAA moderate-risk level and the patient has alcohol-related problems."
 },
@@ -1975,7 +1975,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient's drinking is at the NIAAA moderate-risk level and the patient has no alcohol-related problems."
 },
@@ -1987,7 +1987,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "past year",
 "statement": "The patient binge drinks."
 },
@@ -1999,7 +1999,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient was not able to meet or sustain their drinking goals."
 },
@@ -2011,7 +2011,7 @@
 "file": "04b_NIAAA_Youth_Pocket_Guide_2025.pdf",
 "page": "2",
 "applies_to": "Children and adolescents ages 9 to 18 in primary care and other health settings",
-"setting": "Primary care clinic",
+"setting": "Primary care clinic; School health office",
 "window": "in this conversation",
 "statement": "The patient met and sustained their drinking goals."
 },
@@ -2035,7 +2035,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "past few weeks",
 "statement": "In the past few weeks, the patient has wished they were dead."
 },
@@ -2047,7 +2047,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "past few weeks",
 "statement": "In the past few weeks, the patient has felt that they or their family would be better off if they were dead."
 },
@@ -2059,7 +2059,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "past week",
 "statement": "In the past week, the patient has had thoughts about killing themselves."
 },
@@ -2071,7 +2071,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient has ever tried to kill themselves."
 },
@@ -2083,7 +2083,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient answered no to all four ASQ questions (wished dead; self or family better off dead; thoughts of killing themselves in the past week; ever tried to kill themselves)."
 },
@@ -2095,7 +2095,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "right now",
 "statement": "The patient answered yes to at least one of the four ASQ questions and says they are having thoughts of killing themselves right now."
 },
@@ -2107,7 +2107,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "right now",
 "statement": "The patient answered yes to at least one of the four ASQ questions and says they are not having thoughts of killing themselves right now."
 },
@@ -2119,7 +2119,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient is an adult whose only positive ASQ answer is a past suicide attempt, and the most recent attempt was more than one year ago."
 },
@@ -2131,7 +2131,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "lifetime",
 "statement": "The patient is under 25, their only positive ASQ answer is a past suicide attempt more than one year ago, and a brief suicide safety assessment has been documented since that attempt."
 },
@@ -2143,7 +2143,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is an adult who refuses the brief suicide safety assessment."
 },
@@ -2155,7 +2155,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The parent or guardian of a youth patient refuses the brief suicide safety assessment."
 },
@@ -2167,7 +2167,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is a youth who refuses to answer the suicide screening questions."
 },
@@ -2179,7 +2179,7 @@
 "file": "05b_NIMH_ASQ_screening_tool_rev2025.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Emergency department; Inpatient psychiatric unit; Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient is an adult who refuses to answer the suicide screening questions."
 },
@@ -2191,7 +2191,7 @@
 "file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Outpatient mental health clinic",
 "window": "right now",
 "statement": "The patient says they are having thoughts of killing themselves right now."
 },
@@ -2203,7 +2203,7 @@
 "file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient has a very detailed suicide plan."
 },
@@ -2215,7 +2215,7 @@
 "file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
 "page": "1",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient's suicide plan is feasible (for example, planning to use pills and having access to pills)."
 },
@@ -2227,7 +2227,7 @@
 "file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
 "page": "3",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient says yes, they need help to keep themselves safe."
 },
@@ -2239,7 +2239,7 @@
 "file": "05c_NIMH_ASQ_BSSA_worksheet_youth_outpatient.pdf",
 "page": "3",
 "applies_to": "Youth and adults; developed in emergency-department patients aged 10 to 21; the current tool is labelled for youth and adults with separate rules for under 25 and for adults",
-"setting": "Emergency department",
+"setting": "Outpatient mental health clinic",
 "window": "in this conversation",
 "statement": "The patient says no, they do not need help to keep themselves safe."
 },
