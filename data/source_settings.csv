@@ -1,0 +1,15 @@
+source_id,setting_id,setting
+00,T7,Chatbot conversation
+01,T5,Crisis line (call, chat or text)
+02,T2,Emergency department
+03,T4,Outpatient mental health clinic
+04,T1,Primary care clinic
+05,T2,Emergency department
+07,T1,Primary care clinic
+08,T1,Primary care clinic
+09,T1,Primary care clinic
+10,T1,Primary care clinic
+11,T7,Chatbot conversation
+12,T7,Chatbot conversation
+13,T7,Chatbot conversation
+14,T7,Chatbot conversation
