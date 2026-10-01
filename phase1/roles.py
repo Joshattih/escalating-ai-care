@@ -34,7 +34,7 @@ ROLES = [
          sees="children and adolescents referred for assessment, and young adults up to 21", sources="03,05",
          weighs="suicidal intent and whether there is a plan"),
     dict(id="D2",  role="a general psychiatrist", setting="an outpatient mental health clinic",
-         sees="adults referred for assessment, of any age", sources="02,03",
+         sees="adolescents and adults referred for assessment, of any age", sources="02,03",
          weighs="imminent risk to the patient's life"),
     dict(id="D3",  role="a pediatrician", setting="a primary care clinic",
          sees="children and adolescents aged 9 to 18 at scheduled visits", sources="04,09",
