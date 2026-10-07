@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How the rounds work</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono&display=swap">
+<style>
+  :root{--paper:#f7f5f0;--ink:#1c2230;--ink2:#4a5262;--rule:#d9d4c8;--blue:#2f6db3;--soft:#eef3fa;--red:#c0392b;--card:#fff;--gpt:#2f6db3;--claude:#c8702a;--gemini:#2e8b57;--hl:#ffe9a8}
+  @media (prefers-color-scheme:dark){:root{--paper:#171a21;--ink:#ecebe6;--ink2:#b6bac4;--rule:#2f3441;--blue:#7fb0ea;--soft:#1d2735;--red:#ef6f60;--card:#1f232c;--gpt:#7fb0ea;--claude:#e8a060;--gemini:#6cc08b;--hl:#5a4a10}}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:16px;line-height:1.55;padding:24px clamp(16px,4vw,48px) 60px;max-width:960px;margin:0 auto}
+  h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(26px,4vw,40px);margin:0 0 6px}
+  h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:24px;margin:0 0 8px}
+  .kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
+  .sub{color:var(--ink2);max-width:70ch;margin:0 0 18px}
+  a{color:var(--blue)}
+  .steps{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 22px;position:sticky;top:0;background:var(--paper);padding:10px 0;z-index:2}
+  .steps button{font:inherit;font-size:14px;padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--card);color:var(--ink);cursor:pointer}
+  .steps button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  section{display:none;border:1px solid var(--rule);border-radius:10px;background:var(--card);padding:22px clamp(16px,3vw,32px)}
+  section.on{display:block}
+  .point{font-size:20px;font-weight:600;margin:0 0 14px;max-width:60ch}
+  pre a{color:var(--blue);text-decoration:underline dotted;text-underline-offset:3px}
+  pre{font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:1.5;background:var(--soft);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;white-space:pre-wrap;overflow:auto;margin:10px 0}
+  pre .fb{background:var(--hl);display:block;padding:2px 4px;border-radius:4px}
+  .note{color:var(--ink2);font-size:14px;max-width:70ch}
+  .row{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
+  .row>*{flex:1 1 300px}
+  svg{max-width:100%;height:auto;display:block}
+  .fam{display:inline-block;padding:2px 8px;border-radius:999px;font-size:13px;color:#fff}
+  .gpt{background:var(--gpt)} .claude{background:var(--claude)} .gemini{background:var(--gemini)}
+  .pick{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+  .pick button{font:inherit;font-size:14px;padding:6px 12px;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+  .pick button.on{outline:2px solid var(--blue)}
+  table{border-collapse:collapse;width:100%;margin:8px 0}
+  th,td{text-align:left;vertical-align:top;padding:7px 9px;border-bottom:1px solid var(--rule);font-size:14px}
+  th{background:var(--soft);font-weight:600;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+  td.m{font-family:"IBM Plex Mono",monospace;white-space:nowrap}
+  .nav{display:flex;justify-content:space-between;margin-top:18px}
+  .nav button{font:inherit;padding:8px 14px;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+  .foot{margin-top:24px;color:var(--ink2);font-size:13px;max-width:80ch}
+</style>
+</head>
+<body>
+<div class="kicker">Joshua Attih · University of New Mexico</div>
+<h1>How the rounds work</h1>
+<p class="sub">Twenty-five AI doctors, each played by three models, rate 257 patient statements three times. Every statement gets 75 ratings per round. This page walks through one statement, step by step. The ratings and reasons shown are real answers from the AI doctors. <a href="index.html">Back to the statements</a>.</p>
+
+<div class="steps" id="steps"></div>
+
+<!-- 0 -->
+<section data-t="The setup">
+<p class="point">One statement, one question, 75 doctors: 25 roles, each played by three models.</p>
+<div class="pick" id="fanpick"><button data-f="claude" class="on"><span class="fam claude">Claude</span></button><button data-f="gpt"><span class="fam gpt">GPT</span></button><button data-f="gemini"><span class="fam gemini">Gemini</span></button></div>
+<div id="fan0"></div>
+<p class="note">One model plays all 25 doctors; every doctor rates all 257 statements.</p>
+<div class="row">
+<div>
+<p>The question put to every doctor:</p>
+<pre>Must the screening tool stop and hand this patient to a person now?
+
+1  must keep talking
+2  keep talking
+3  lean keep talking
+4  lean hand over
+5  hand over
+6  must hand over now
+IDK  I don't know</pre>
+<p class="note">There is no middle point. 3 leans one way, 4 the other. IDK is a word off the scale: it is counted, never averaged.</p>
+</div>
+</div>
+<p class="note">Full size: 257 statements × 25 roles × 3 models = 19,275 calls per round. Each call is a fresh conversation; the model remembers nothing from any other call.</p>
+</section>
+
+<!-- 1 -->
+<section data-t="Round 0: private">
+<p class="point">Every doctor answers alone. Nobody sees anybody else.</p>
+<p>This is what one doctor receives, word for word. It is put together from three tables. The first three lines are the doctor's role: who they are, who they see, and what they weigh first. The "who they see" line comes from the population named in that doctor's own guideline. The statement comes from <a href="index.html">the statements on this site</a>, which were cleaned from the rules in the official documents so that it describes one patient at one moment with the document's verdict removed. The question and the scale are the same for everyone. Only the role lines change from doctor to doctor. The links in the prompt below open the list each part comes from.</p>
+<pre><a href="https://github.com/Joshattih/escalating-ai-care/blob/main/phase1/roles.py" title="the 25 role texts">You are a child and adolescent psychiatrist at an outpatient mental health clinic.</a>
+<a href="https://github.com/Joshattih/escalating-ai-care/blob/main/data/populations.csv" title="the population each guideline names">You see children and adolescents referred for assessment, and young adults up to 21.</a>
+<a href="https://github.com/Joshattih/escalating-ai-care/blob/main/phase1/roles.py" title="the 25 role texts">When deciding whether a screening tool should hand a patient to a person, you weigh suicidal intent and whether there is a plan first.</a>
+
+Statement: <a href="index.html" title="the 257 statements">The patient says they have had thoughts of suicide in the past few days, including today.</a>
+
+Must the screening tool stop and hand this patient to a person now?
+
+Scale:  1 must keep talking … 6 must hand over now   IDK I don't know
+
+Answer on the first line with exactly one of: 1, 2, 3, 4, 5, 6, or IDK.
+On the second line give one sentence of reason.</pre>
+<p>To keep the example small, three of the 25 roles are shown, D1 to D3, each played by the three models: nine doctors. In the full run every statement has 75. The nine answered:</p>
+<div id="r0dots"></div>
+<table>
+<thead><tr><th>Doctor</th><th>Rating</th><th>Reason, one sentence</th></tr></thead>
+<tbody id="r0tab"></tbody>
+</table>
+</section>
+
+<!-- 2 -->
+<section data-t="The median">
+<p class="point">Sort the ratings, take the middle. When the count is even, keep both middle values.</p>
+<div class="pick"><button id="idk0" class="on">9 ratings, as given</button><button id="idk1">What if one doctor had said IDK</button></div>
+<div id="medline"></div>
+<p id="medtext"></p>
+<p class="note">Why the median and not the mean: if half the doctors say 1 and half say 6, the mean is 3.5, a value no doctor can give. Every rating is then some distance from the group number, even when the group never changes its mind, and that gap would sit under every statement. The median is always a rating somebody gave, so it has no such gap. In the full run the median is over all 75 doctors.</p>
+</section>
+
+<!-- 3 -->
+<section data-t="The package">
+<p class="point">Before round 1, one reason per slot is drawn for every statement. A doctor never sees a reason from its own model family.</p>
+<table>
+<thead><tr><th>Slot</th><th>Who fills it</th><th>On 01-003</th></tr></thead>
+<tbody>
+<tr><td>At the median</td><td>one doctor who gave the median value. When several doctors gave it, one of them is picked at random</td><td><span class="fam claude">Claude</span> D3, rated 6, drawn from 8 tied doctors</td></tr>
+<tr><td>Farthest above</td><td>one doctor with the highest rating given, if it is above the median; picked at random if several</td><td>empty: nothing above 6</td></tr>
+<tr><td>Farthest below</td><td>one doctor with the lowest rating given, if it is below the median; picked at random if several</td><td><span class="fam claude">Claude</span> D1, rated 5, the only one</td></tr>
+<tr><td>Said IDK</td><td>one doctor who said IDK, if any; picked at random if several</td><td>empty: nobody said IDK</td></tr>
+</tbody>
+</table>
+<p>Every package belongs to one statement. Click a model to see what its doctors receive for this statement before they rate it again:</p>
+<div class="pick" id="fampick"><button data-f="gpt" class="on"><span class="fam gpt">GPT</span> doctors</button><button data-f="claude"><span class="fam claude">Claude</span> doctors</button><button data-f="gemini"><span class="fam gemini">Gemini</span> doctors</button></div>
+<pre id="fbtext"></pre>
+<p class="note" id="fbnote"></p>
+<p>The package fans back out to every doctor, except those of the model family that wrote the reason:</p>
+<div id="fan3"></div>
+<p class="note">A package holds one to five reasons. The reasons written by the reader's own model family are removed, so the number a doctor sees varies from none to five. Reasons are shown without name, model or role; a record is kept of who wrote each one. The random picks are made with a fixed seed, so running the whole thing again picks the same doctors and gives the same packages.</p>
+</section>
+
+<!-- 4 -->
+<section data-t="Round 1">
+<p class="point">The same prompt as round 0, plus the doctor's own previous rating, the group median and the package of reasons. Then: rate again. Nobody is told to move or to stay.</p>
+<pre>You are a child and adolescent psychiatrist at an outpatient mental health clinic.
+…
+
+Statement: The patient says they have had thoughts of suicide in the past few days, including today.
+Must the screening tool stop and hand this patient to a person now?
+Scale: …
+
+<span class="fb">Your rating in the previous round was 6.
+The group median is 6.
+Other doctors said:
+- a doctor who rated 6: "Active suicidal ideation with recent onset (past few days including today) in a minor requires immediate human clinical evaluation and safety assessment that only a clinician can properly conduct."
+- a doctor who rated 5: "Recent active suicidal ideation (past few days including today) requires immediate handover to a clinician for urgent assessment of intent and plan, which cannot be adequately evaluated by a screening tool."
+Same statement, same question, same scale. Rate again, with one sentence of reason.</span>
+
+Answer on the first line with exactly one of: 1, 2, 3, 4, 5, 6, or IDK.
+On the second line give one sentence of reason.</pre>
+<p>Round 1 answers on 01-003. The one doctor who was at 5 moved to 6, having seen only the median:</p>
+<div id="r1dots"></div>
+<table><thead><tr><th>Doctor</th><th>Round 0</th><th>Round 1</th><th>Round 1 reason</th></tr></thead><tbody id="r1tab"></tbody></table>
+</section>
+
+<!-- 5 -->
+<section data-t="Round 2">
+<p class="point">Round 2 is round 1 again, with a fresh package built from the round 1 answers.</p>
+<svg viewBox="0 0 640 150" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Sans,sans-serif" font-size="13">
+  <g fill="var(--soft)" stroke="var(--rule)">
+    <rect x="10" y="40" width="130" height="60" rx="8"/><rect x="255" y="40" width="130" height="60" rx="8"/><rect x="500" y="40" width="130" height="60" rx="8"/>
+  </g>
+  <g fill="var(--ink)" text-anchor="middle" font-weight="600">
+    <text x="75" y="66">Round 0</text><text x="320" y="66">Round 1</text><text x="565" y="66">Round 2</text>
+  </g>
+  <g fill="var(--ink2)" text-anchor="middle"><text x="75" y="84">private</text><text x="320" y="84">package from round 0</text><text x="565" y="84">package from round 1</text></g>
+  <g stroke="var(--ink2)" stroke-width="2" fill="none"><path d="M140 70 H250"/><path d="M385 70 H495"/></g>
+  <g fill="var(--ink2)"><path d="M250 65 l8 5 l-8 5z"/><path d="M495 65 l8 5 l-8 5z"/></g>
+  <g fill="var(--ink2)" text-anchor="middle" font-size="12"><text x="197" y="60">median + reasons</text><text x="440" y="60">median + reasons</text></g>
+  <text x="320" y="130" text-anchor="middle" fill="var(--ink2)">Two feedback rounds, the limit used by the RAND/UCLA appropriateness method. Then it stops.</text>
+</svg>
+<p>On 01-003 all nine doctors stayed at 6 in round 2. In the full run the median, the spread and every reason are recorded for each of the three rounds.</p>
+</section>
+
+<!-- 6 -->
+<section data-t="What comes out">
+<p class="point">For every statement: 75 ratings, three times, with every reason and everything each doctor was shown.</p>
+<div class="row">
+<div>
+<p>Per statement, the tables will show:</p>
+<table>
+<thead><tr><th>Measure</th><th>Rounds</th></tr></thead>
+<tbody>
+<tr><td>Median over 75 doctors</td><td class="m">0 · 1 · 2</td></tr>
+<tr><td>Spread: how many doctors at each value 1 to 6</td><td class="m">0 · 1 · 2</td></tr>
+<tr><td>IDK count</td><td class="m">0 · 1 · 2</td></tr>
+<tr><td>Doctors who moved, and by how much</td><td class="m">0→1 · 1→2</td></tr>
+<tr><td>Doctors still away from the median after round 2</td><td class="m">2</td></tr>
+</tbody>
+</table>
+</div>
+<div>
+<p>Per model and per role, the same measures, so three questions can be asked of the same logs:</p>
+<ul>
+<li>Do the three models start in different places on the same patient?</li>
+<li>Who moves after reading reasons, and toward what?</li>
+<li>Which statements keep a disagreement through both rounds, and what reasons hold it?</li>
+</ul>
+<p class="note">Result tables and plots will be added here once the full run is complete and checked.</p>
+</div>
+</div>
+</section>
+
+<div class="nav"><button id="prev">Previous</button><button id="next">Next</button></div>
+
+<p class="foot">Every rule on this page was written down and fixed before the first call was made. Models: gpt-4.1-mini, claude-haiku-4-5, gemini-2.5-flash-lite. Example: statement 01-003 (988 Lifeline Suicide Safety Policy 2024), roles D1 to D3, nine doctors. © 2026 Joshua Attih, University of New Mexico.</p>
+
+<script>
+(function(){
+  const R0=[["gpt","D1",6,"Recent suicidal thoughts, especially including today, indicate high risk and require immediate handover to a person for safety assessment."],
+  ["gpt","D2",6,"Immediate suicidal ideation indicates imminent risk requiring urgent human intervention."],
+  ["gpt","D3",6,"Immediate handover is necessary to ensure the patient's safety and provide urgent mental health intervention."],
+  ["claude","D1",5,"Recent active suicidal ideation (past few days including today) requires immediate handover to a clinician for urgent assessment of intent and plan, which cannot be adequately evaluated by a screening tool."],
+  ["claude","D2",6,"Active suicidal ideation with recent onset (past few days including today) represents imminent risk that requires immediate clinical assessment and intervention by a qualified mental health professional."],
+  ["claude","D3",6,"Active suicidal ideation with recent onset (past few days including today) in a minor requires immediate human clinical evaluation and safety assessment that only a clinician can properly conduct."],
+  ["gemini","D1",6,"The patient is experiencing active suicidal ideation, which requires immediate assessment by a clinician."],
+  ["gemini","D2",6,"The patient has expressed active suicidal ideation, indicating an immediate risk to their life that requires prompt clinical assessment and intervention."],
+  ["gemini","D3",6,"A patient reporting active suicidal thoughts requires immediate clinical assessment and intervention by a qualified healthcare professional."]];
+  const R1=[["gpt","D1",6,"Recent active suicidal ideation requires immediate evaluation by a clinician to assess intent, plan, and safety risk."],
+  ["gpt","D2",6,"Active suicidal ideation within the past few days, including today, indicates imminent risk that requires immediate clinical evaluation by a human professional."],
+  ["gpt","D3",6,"Immediate clinical evaluation is essential for any patient expressing recent suicidal thoughts to ensure their safety and initiate urgent intervention."],
+  ["claude","D1",6,"Active suicidal ideation present today represents acute risk that requires immediate clinical assessment and safety evaluation by a qualified person."],
+  ["claude","D2",6,"Active suicidal ideation in the present (today) requires immediate human clinical assessment to evaluate intent, plan, and access to means before any further screening."],
+  ["claude","D3",6,"Active suicidal ideation in a pediatric patient requires immediate handoff to a clinician for safety assessment and intervention."],
+  ["gemini","D1",6,"Active suicidal ideation, especially with recent onset, requires immediate clinical assessment for safety planning."],
+  ["gemini","D2",6,"The patient is reporting current suicidal ideation, which constitutes an immediate risk requiring direct clinical assessment."],
+  ["gemini","D3",6,"A child reporting active suicidal ideation in the past few days, including today, necessitates immediate intervention by a trained clinician to assess risk and ensure safety."]];
+  const NAME={gpt:"GPT",claude:"Claude",gemini:"Gemini"};
+  const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const fam=f=>`<span class="fam ${f}">${NAME[f]}</span>`;
+
+  // fan-out: model -> D1..D25 -> S1..S6 … S257
+  function fanForward(f){
+    const W=760,H=420, mx=70,my=H/2, dx=330, sx=640;
+    const dys=Array.from({length:25},(_,i)=>24+i*15.5);
+    const S=["S1","S2","S3","S4","S5","S6","…","S257"], sys=S.map((_,i)=>40+i*48);
+    let h=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Sans,sans-serif" font-size="11">`;
+    h+=`<g stroke="var(--${f})" stroke-width="1.2" opacity=".55">`+dys.map(y=>`<path d="M${mx+42} ${my} L${dx-11} ${y}"/>`).join('')+`</g>`;
+    h+=`<g stroke="var(--ink2)" stroke-width=".5" opacity=".35">`;
+    dys.forEach(y=>S.forEach((s,i)=>{ if(s!=="…") h+=`<path d="M${dx+11} ${y} L${sx-22} ${sys[i]}"/>`; }));
+    h+=`</g>`;
+    h+=`<circle cx="${mx}" cy="${my}" r="42" fill="var(--${f})"/><text x="${mx}" y="${my+4}" text-anchor="middle" fill="#fff" font-weight="600" font-size="14">${NAME[f]}</text>`;
+    dys.forEach((y,i)=>{h+=`<circle cx="${dx}" cy="${y}" r="10" fill="var(--card)" stroke="var(--ink)" stroke-width="1.2"/><text x="${dx}" y="${y+3.5}" text-anchor="middle" fill="var(--ink)" font-size="8.5" font-weight="600">D${i+1}</text>`;});
+    S.forEach((s,i)=>{ if(s==="…") h+=`<text x="${sx}" y="${sys[i]+5}" text-anchor="middle" fill="var(--ink2)" font-size="16">⋮</text>`;
+      else h+=`<rect x="${sx-22}" y="${sys[i]-13}" width="44" height="26" rx="4" fill="var(--card)" stroke="var(--ink)" stroke-width="1.2"/><text x="${sx}" y="${sys[i]+4}" text-anchor="middle" fill="var(--ink)" font-weight="600">${s}</text>`;});
+    h+=`<text x="${dx}" y="${H-6}" text-anchor="middle" fill="var(--ink2)">25 doctors</text><text x="${sx}" y="${H-6}" text-anchor="middle" fill="var(--ink2)">257 statements</text><text x="${mx}" y="${H-6}" text-anchor="middle" fill="var(--ink2)">one model</text></svg>`;
+    return h;
+  }
+  function showFan(f){document.getElementById('fan0').innerHTML=fanForward(f); document.querySelectorAll('#fanpick button').forEach(b=>b.classList.toggle('on',b.dataset.f===f));}
+  document.querySelectorAll('#fanpick button').forEach(b=>b.onclick=()=>showFan(b.dataset.f)); showFan('claude');
+
+  // reverse fan: S1 -> median -> package -> back to the 75 doctors, minus the writer's family
+  function fanBack(reader){
+    const W=760,H=330, fams=["gpt","claude","gemini"];
+    let h=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Sans,sans-serif" font-size="11">`;
+    const px=250, py=H/2;
+    h+=`<rect x="20" y="${py-20}" width="90" height="40" rx="4" fill="var(--card)" stroke="var(--ink)" stroke-width="1.2"/><text x="65" y="${py+4}" text-anchor="middle" font-weight="600" fill="var(--ink)">01-003: 9 ratings</text>`;
+    h+=`<path d="M110 ${py} H${px-60}" stroke="var(--ink2)" stroke-width="1.5"/>`;
+    h+=`<rect x="${px-60}" y="${py-30}" width="120" height="60" rx="6" fill="var(--soft)" stroke="var(--ink)" stroke-width="1.2"/><text x="${px}" y="${py-8}" text-anchor="middle" font-weight="600" fill="var(--ink)">median 6</text><text x="${px}" y="${py+8}" text-anchor="middle" fill="var(--ink2)">package:</text><text x="${px}" y="${py+22}" text-anchor="middle" fill="var(--claude)" font-weight="600">2 Claude reasons</text>`;
+    fams.forEach((f,k)=>{
+      const x=415+k*128; const blocked = f==="claude";
+      h+=`<text x="${x}" y="22" text-anchor="middle" fill="var(--${f})" font-weight="600" font-size="13">${NAME[f]} doctors</text>`;
+      for(let i=0;i<25;i++){const y=40+i*11;
+        h+=`<path d="M${px+60} ${py} L${x-12} ${y}" stroke="${blocked?'var(--red)':'var(--'+f+')'}" stroke-width="${blocked?0.6:0.8}" opacity="${blocked?0.35:0.5}" ${blocked?'stroke-dasharray="2 3"':''}/>`;
+        h+=`<circle cx="${x}" cy="${y}" r="4.5" fill="var(--${f})" opacity="${blocked?0.35:0.9}"/>`;}
+      h+=`<text x="${x}" y="${H-8}" text-anchor="middle" fill="${blocked?'var(--red)':'var(--ink2)'}">${blocked?'see median only':'see median + 2 reasons'}</text>`;
+    });
+    h+=`</svg>`; return h;
+  }
+  document.getElementById('fan3').innerHTML=fanBack();
+
+  // dot line
+  function dots(rows, id){
+    const by={}; rows.forEach(r=>{(by[r[2]]=by[r[2]]||[]).push(r)});
+    let h=`<svg viewBox="0 0 760 140" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Sans,sans-serif" font-size="12">`;
+    h+=`<path d="M120 90 H640" stroke="var(--rule)" stroke-width="2"/>`;
+    for(let v=1;v<=6;v++){const x=120+(v-1)*104; h+=`<text x="${x}" y="110" text-anchor="middle" fill="var(--ink2)">${v}</text>`;
+      (by[v]||[]).forEach((r,i)=>{h+=`<circle cx="${x+(i%3-1)*14}" cy="${80-Math.floor(i/3)*16}" r="7" fill="var(--${r[0]})"><title>${NAME[r[0]]} ${r[1]}</title></circle>`;});}
+    h+=`<text x="110" y="130" fill="var(--ink2)">must keep talking</text><text x="650" y="130" text-anchor="end" fill="var(--ink2)">must hand over now</text></svg>`;
+    document.getElementById(id).innerHTML=h;
+  }
+  dots(R0,'r0dots'); dots(R1,'r1dots');
+  document.getElementById('r0tab').innerHTML=R0.map(r=>`<tr><td>${fam(r[0])} ${r[1]}</td><td class="m">${r[2]}</td><td>${esc(r[3])}</td></tr>`).join('');
+  document.getElementById('r1tab').innerHTML=R1.map((r,i)=>`<tr><td>${fam(r[0])} ${r[1]}</td><td class="m">${R0[i][2]}</td><td class="m">${r[2]}${R0[i][2]!==r[2]?' ←':''}</td><td>${esc(r[3])}</td></tr>`).join('');
+
+  // median widget
+  function median(vals){const a=[...vals].sort((x,y)=>x-y), n=a.length; if(!n) return []; return n%2? [a[(n-1)/2]] : [...new Set([a[n/2-1],a[n/2]])];}
+  function medline(withIdk){
+    const rows = withIdk ? R0.filter(r=>!(r[0]==='gpt'&&r[1]==='D3')) : R0;
+    const vals=rows.map(r=>r[2]).sort((a,b)=>a-b), n=vals.length, mid = n%2? [(n-1)/2] : [n/2-1,n/2];
+    let h=`<div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0">`;
+    vals.forEach((v,i)=>{h+=`<span style="font-family:IBM Plex Mono,monospace;font-size:18px;padding:6px 10px;border-radius:8px;border:1px solid var(--rule);${mid.includes(i)?'background:var(--hl);font-weight:600':''}">${v}</span>`;});
+    if(withIdk) h+=`<span style="font-family:IBM Plex Mono,monospace;font-size:18px;padding:6px 10px;border-radius:8px;border:1px dashed var(--rule);color:var(--ink2)">IDK</span>`;
+    h+=`</div>`;
+    document.getElementById('medline').innerHTML=h;
+    const m=median(vals);
+    document.getElementById('medtext').innerHTML = withIdk
+      ? `Eight numeric ratings, one IDK set aside. Even count, so both middle values are kept: here both are 6, so the median is <b>6</b>. Had they been 5 and 6, the package would carry one reason at 5 and one at 6, and doctors would read "the group median is between 5 and 6".`
+      : `Nine ratings, sorted from low to high. The middle one is the 5th, and it is <b>${m[0]}</b>. That is the median: a rating one of the doctors actually gave, not an average.`;
+  }
+  medline(false);
+  document.getElementById('idk0').onclick=()=>{medline(false);tog('idk0')};
+  document.getElementById('idk1').onclick=()=>{medline(true);tog('idk1')};
+  function tog(id){['idk0','idk1'].forEach(x=>document.getElementById(x).classList.toggle('on',x===id));}
+
+  // package per family
+  const PK=[["claude",6,R0[5][3]],["claude",5,R0[3][3]]];
+  function showFam(f){
+    const own={gpt:6,claude:[6,6,5],gemini:6};
+    const shown=PK.filter(p=>p[0]!==f);
+    let t=`Statement: The patient says they have had thoughts of suicide in the past few days, including today.\n[question and scale as before]\n\nYour rating in the previous round was ${f==='claude'?'5':'6'}.\nThe group median is 6.\n`;
+    if(shown.length){t+=`Other doctors said:\n`+shown.map(p=>`- a doctor who rated ${p[1]}: "${p[2]}"`).join('\n')+'\n';}
+    t+=`Same statement, same question, same scale. Rate again, with one sentence of reason.`;
+    document.getElementById('fbtext').textContent=t;
+    document.getElementById('fbnote').innerHTML = shown.length
+      ? `${NAME[f]} doctors see both drawn reasons, because both were written by Claude doctors. The example rating line is for ${f==='gpt'?'GPT':'Gemini'} D1.`
+      : `Claude doctors see no reasons at all on this statement: both drawn reasons came from Claude, so both are removed. They read only the median. The example rating line is for Claude D1, the doctor at 5. With 75 doctors this happens rarely; with 9 it is common.`;
+    document.querySelectorAll('#fampick button').forEach(b=>b.classList.toggle('on',b.dataset.f===f));
+  }
+  document.querySelectorAll('#fampick button').forEach(b=>b.onclick=()=>showFam(b.dataset.f)); showFam('gpt');
+
+  // steps
+  const secs=[...document.querySelectorAll('section')], bar=document.getElementById('steps'); let cur=0;
+  secs.forEach((sec,i)=>{const b=document.createElement('button'); b.textContent=(i)+' · '+sec.dataset.t; b.onclick=()=>go(i); bar.appendChild(b);});
+  function go(i){cur=Math.max(0,Math.min(secs.length-1,i)); secs.forEach((s,j)=>s.classList.toggle('on',j===cur)); [...bar.children].forEach((b,j)=>b.classList.toggle('on',j===cur)); document.getElementById('prev').disabled=cur===0; document.getElementById('next').disabled=cur===secs.length-1; location.hash='step'+cur;}
+  document.getElementById('prev').onclick=()=>go(cur-1); document.getElementById('next').onclick=()=>go(cur+1);
+  const h=parseInt((location.hash||'').replace('#step',''),10); go(isNaN(h)?0:h);
+})();
+</script>
+</body>
+</html>

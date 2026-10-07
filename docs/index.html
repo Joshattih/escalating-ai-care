@@ -27,9 +27,10 @@
 </style>
 </head>
 <body>
-<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)">Joshua Attih · University of New Mexico · Year 2</div>
+<div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)">Joshua Attih · University of New Mexico</div>
 <h1>Escalating AI Care: A Right to Holdout</h1>
 <h2 style="font-family:'IBM Plex Sans',sans-serif;font-weight:500;font-size:18px;margin:0 0 6px;color:var(--ink2)">The rules baseline</h2>
+<p class="sub" style="margin-bottom:6px"><a href="design.html">How the rounds work →</a> a step-by-step walk through round 0, the median, the reason package and rounds 1 and 2, with real answers.</p>
 <p class="sub">Three tables, one chain. A <b>rule</b> is a line in an official document that tells the clinician what to look for, how to classify it, or what to do (773; in the repository). A <b>state</b> is a rule that says something about the patient at a moment (259). A <b>statement</b> is a state after cleaning, and it is what the AI doctors rate (257): every statement describes one patient at one moment, in the source's own window, with the source's verdict removed, so that any disagreement recorded is a disagreement between doctors about a patient and not about what a sentence meant. Each statement keeps its row id, document and page, and the people its guideline says it applies to (the "Applies to" column) and the place its guideline was written for (the "Setting" column). Both are columns of statements.csv.</p>
 <div class="bar">
   <select id="view"><option value="statements">Statements (257)</option><option value="states">States (259)</option></select>
