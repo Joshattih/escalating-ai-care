@@ -40,13 +40,15 @@ ANSWER_FORMAT = (
     "On the second line give one sentence of reason."
 )
 
-def build_prompt(statement_text, role_text=None):
-    """Return (system_text, user_text). system_text is None when there is no role."""
+def build_prompt(statement_text, role_text=None, feedback=None):
+    """Return (system_text, user_text). system_text is None when there is no role.
+    feedback, when given, is the text from rounds.py (own previous rating, median, other doctors' reasons)."""
     user = (
         f"Statement: {statement_text}\n\n"
         f"{QUESTION}\n\n"
         f"Scale:\n{SCALE_TEXT}\n{IDK}  I don't know\n\n"
-        f"{ANSWER_FORMAT}"
+        + (f"{feedback}\n\n" if feedback else "")
+        + f"{ANSWER_FORMAT}"
     )
     return role_text, user
 
@@ -116,7 +118,7 @@ _CALLERS = {"openai": _call_openai, "anthropic": _call_anthropic, "google": _cal
 # The one entry point.
 # ---------------------------------------------------------------------------
 def ask(model, statement_id, statement_text, role_id=None, role_text=None,
-        run_dir=None, repeat=None, round_id=None, retries=4):
+        run_dir=None, repeat=None, round_id=None, retries=4, feedback=None):
     """
     Send one prompt to one model, parse the reply, log one JSON line, return the record.
 
@@ -127,13 +129,13 @@ def ask(model, statement_id, statement_text, role_id=None, role_text=None,
     repeat         probe repeat number 1..20, or None
     round_id       "probe", "round0", ... written into the log
     """
-    system_text, user_text = build_prompt(statement_text, role_text)
+    system_text, user_text = build_prompt(statement_text, role_text, feedback)
     rec = {
         "time": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "round": round_id, "model": model, "role_id": role_id, "statement_id": statement_id,
         "repeat": repeat, "prompt_hash": prompt_hash(system_text, user_text),
         "temperature": TEMPERATURE, "max_output_tokens": MAX_OUTPUT_TOKENS,
-        "raw": None, "answer": None, "reason": None, "status": None, "attempts": 0, "error": None,
+        "feedback": feedback, "raw": None, "answer": None, "reason": None, "status": None, "attempts": 0, "error": None,
     }
     caller = _CALLERS[MODELS[model]["provider"]]
     wait = 2.0
