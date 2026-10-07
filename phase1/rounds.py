@@ -19,7 +19,7 @@ Nothing here changes the question, the scale, the role texts or the statements.
 Not used in this script, on purpose: no probe, no subtraction, no challenge round.
 """
 
-import argparse, csv, json, random, statistics
+import argparse, csv, json, random, statistics, sys
 from datetime import datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -138,6 +138,13 @@ def main():
     ap.add_argument("--models", nargs="*", default=None)
     ap.add_argument("--workers", type=int, default=8)
     a = ap.parse_args()
+    # accept the folder as typed, or relative to the logs folder, or by name alone
+    for cand in (Path(a.run_dir), LOGS.parent / a.run_dir, LOGS / Path(a.run_dir).name):
+        if (cand / "calls.jsonl").exists():
+            a.run_dir = cand
+            break
+    else:
+        sys.exit(f"no calls.jsonl found for {a.run_dir}; expected under {LOGS}")
     with open(STATEMENTS_CSV, newline="", encoding="utf-8") as f:
         statements = list(csv.DictReader(f))
     if a.statements: statements = statements[:a.statements]

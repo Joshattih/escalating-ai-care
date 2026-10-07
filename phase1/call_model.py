@@ -93,7 +93,8 @@ def _call_openai(model, system_text, user_text):
 def _call_anthropic(model, system_text, user_text):
     import anthropic
     client = anthropic.Anthropic(api_key=os.environ[MODELS[model]["env_key"]])
-    kw = dict(model=model, max_tokens=MAX_OUTPUT_TOKENS, temperature=TEMPERATURE,
+    # anthropic SDK 1.11 has no temperature argument: the API's default sampling applies.
+    kw = dict(model=model, max_tokens=MAX_OUTPUT_TOKENS,
               messages=[{"role": "user", "content": user_text}])
     if system_text: kw["system"] = system_text
     r = client.messages.create(**kw)
@@ -134,7 +135,7 @@ def ask(model, statement_id, statement_text, role_id=None, role_text=None,
         "time": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "round": round_id, "model": model, "role_id": role_id, "statement_id": statement_id,
         "repeat": repeat, "prompt_hash": prompt_hash(system_text, user_text),
-        "temperature": TEMPERATURE, "max_output_tokens": MAX_OUTPUT_TOKENS,
+        "temperature": (TEMPERATURE if MODELS[model]["provider"] != "anthropic" else "provider default"), "max_output_tokens": MAX_OUTPUT_TOKENS,
         "feedback": feedback, "raw": None, "answer": None, "reason": None, "status": None, "attempts": 0, "error": None,
     }
     caller = _CALLERS[MODELS[model]["provider"]]
