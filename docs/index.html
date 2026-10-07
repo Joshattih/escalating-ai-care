@@ -28,7 +28,7 @@
   #rounds .steps{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 22px;position:sticky;top:0;background:var(--paper);padding:10px 0;z-index:2}
   #rounds .steps button{font:inherit;font-size:14px;padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--card);color:var(--ink);cursor:pointer}
   #rounds .steps button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-  #rounds section{display:block;margin:0 0 22px;border:1px solid var(--rule);border-radius:10px;background:var(--card);padding:22px clamp(16px,3vw,32px)}
+  #rounds section{display:none;border:1px solid var(--rule);border-radius:10px;background:var(--card);padding:22px clamp(16px,3vw,32px)}
   #rounds .point{font-size:20px;font-weight:600;margin:0 0 14px;max-width:60ch}
   #rounds pre a{color:var(--blue);text-decoration:underline dotted;text-underline-offset:3px}
   #rounds pre{font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:1.5;background:var(--soft);border:1px solid var(--rule);border-radius:8px;padding:14px 16px;white-space:pre-wrap;overflow:auto;margin:10px 0}
@@ -48,6 +48,8 @@
   #rounds td.m{font-family:"IBM Plex Mono",monospace;white-space:nowrap}
   #rounds .nav{display:flex;justify-content:space-between;margin-top:18px}
   #rounds .nav button{font:inherit;padding:8px 14px;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+  #rounds section.on{display:block}
+  #rounds .steps{position:static}
   #rounds table{min-width:0}
   #rounds{margin-top:34px;font-size:16px;line-height:1.55}
   .topnav{display:flex;gap:18px;flex-wrap:wrap;margin:6px 0 18px;font-size:14px}
@@ -77,8 +79,8 @@
 <p class="sub">Twenty-five AI doctors, each played by three models, rate 257 patient statements three times. Every statement gets 75 ratings per round. This section walks through one statement, step by step. The ratings and reasons shown are real answers from the AI doctors.</p>
 
 <!-- 0 -->
+<div class="steps" id="steps"></div>
 <section data-t="The setup">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 0 · The setup</h3>
 <p class="point">One statement, one question, 75 doctors: 25 roles, each played by three models.</p>
 <div class="pick" id="fanpick"><button data-f="claude" class="on"><span class="fam claude">Claude</span></button><button data-f="gpt"><span class="fam gpt">GPT</span></button><button data-f="gemini"><span class="fam gemini">Gemini</span></button></div>
 <div id="fan0"></div>
@@ -103,7 +105,6 @@ IDK  I don't know</pre>
 
 <!-- 1 -->
 <section data-t="Round 0: private">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 1 · Round 0: private</h3>
 <p class="point">Every doctor answers alone. Nobody sees anybody else.</p>
 <p>This is what one doctor receives, word for word. It is put together from three tables. The first three lines are the doctor's role: who they are, who they see, and what they weigh first. The "who they see" line comes from the population named in that doctor's own guideline. The statement comes from <a href="index.html">the statements on this site</a>, which were cleaned from the rules in the official documents so that it describes one patient at one moment with the document's verdict removed. The question and the scale are the same for everyone. Only the role lines change from doctor to doctor. The links in the prompt below open the list each part comes from.</p>
 <pre><a href="https://github.com/Joshattih/escalating-ai-care/blob/main/phase1/roles.py" title="the 25 role texts">You are a child and adolescent psychiatrist at an outpatient mental health clinic.</a>
@@ -128,7 +129,6 @@ On the second line give one sentence of reason.</pre>
 
 <!-- 2 -->
 <section data-t="The median">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 2 · The median</h3>
 <p class="point">Sort the ratings, take the middle. When the count is even, keep both middle values.</p>
 <div class="pick"><button id="idk0" class="on">9 ratings, as given</button><button id="idk1">What if one doctor had said IDK</button></div>
 <div id="medline"></div>
@@ -138,7 +138,6 @@ On the second line give one sentence of reason.</pre>
 
 <!-- 3 -->
 <section data-t="The package">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 3 · The package</h3>
 <p class="point">Before round 1, one reason per slot is drawn for every statement. A doctor never sees a reason from its own model family.</p>
 <table>
 <thead><tr><th>Slot</th><th>Who fills it</th><th>On 01-003</th></tr></thead>
@@ -160,7 +159,6 @@ On the second line give one sentence of reason.</pre>
 
 <!-- 4 -->
 <section data-t="Round 1">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 4 · Round 1</h3>
 <p class="point">The same prompt as round 0, plus the doctor's own previous rating, the group median and the package of reasons. Then: rate again. Nobody is told to move or to stay.</p>
 <pre>You are a child and adolescent psychiatrist at an outpatient mental health clinic.
 …
@@ -185,7 +183,6 @@ On the second line give one sentence of reason.</pre>
 
 <!-- 5 -->
 <section data-t="Round 2">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 5 · Round 2</h3>
 <p class="point">Round 2 is round 1 again, with a fresh package built from the round 1 answers.</p>
 <svg viewBox="0 0 640 150" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Sans,sans-serif" font-size="13">
   <g fill="var(--soft)" stroke="var(--rule)">
@@ -205,7 +202,6 @@ On the second line give one sentence of reason.</pre>
 
 <!-- 6 -->
 <section data-t="What comes out">
-<h3 style="margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)">Step 6 · What comes out</h3>
 <p class="point">For every statement: 75 ratings, three times, with every reason and everything each doctor was shown.</p>
 <div class="row">
 <div>
@@ -232,6 +228,7 @@ On the second line give one sentence of reason.</pre>
 </div>
 </div>
 </section>
+<div class="nav"><button id="prev">Previous</button><button id="next">Next</button></div>
 
 
 <p class="note" style="margin-top:14px">Every rule in this section was written down and fixed before the first call was made. Models: gpt-4.1-mini, claude-haiku-4-5, gemini-2.5-flash-lite. Example: statement 01-003 (988 Lifeline Suicide Safety Policy 2024), roles D1 to D3, nine doctors.</p>
@@ -332,6 +329,13 @@ On the second line give one sentence of reason.</pre>
     h+=`</svg>`; return h;
   }
   document.getElementById('fan3').innerHTML=fanBack();
+  // steps
+  const secs=[...document.querySelectorAll('#rounds section')], bar=document.getElementById('steps'); let cur=0;
+  secs.forEach((sec,i)=>{const b=document.createElement('button'); b.textContent=i+' · '+sec.dataset.t; b.onclick=()=>go(i); bar.appendChild(b);});
+  function go(i){cur=Math.max(0,Math.min(secs.length-1,i)); secs.forEach((s,j)=>s.classList.toggle('on',j===cur)); [...bar.children].forEach((b,j)=>b.classList.toggle('on',j===cur)); document.getElementById('prev').disabled=cur===0; document.getElementById('next').disabled=cur===secs.length-1;}
+  document.getElementById('prev').onclick=()=>go(cur-1); document.getElementById('next').onclick=()=>go(cur+1);
+  go(0);
+
 
   // dot line
   function dots(rows, id){
