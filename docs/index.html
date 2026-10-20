@@ -138,7 +138,15 @@ On the second line give one sentence of reason.</pre>
 
 <!-- 3 -->
 <section data-t="The package">
-<p class="point">Before round 1, one reason per slot is drawn for every statement. A doctor never sees a reason from its own model family.</p>
+<p class="point">After a round ends, every doctor gets to read a few of the other doctors' reasons before rating again. The package is how those reasons are chosen.</p>
+<ol>
+<li><b>One package per statement.</b> It is built from all 75 answers to that statement, from all three models together.</li>
+<li><b>It holds at most four reasons</b>, one per slot: a doctor who gave the median value, the doctor farthest above the median, the doctor farthest below it, and a doctor who said IDK. A slot stays empty when nobody fits it. When several doctors fit, one is drawn at random.</li>
+<li><b>It goes to every doctor</b>, all 75, not only to those who stood apart. Every doctor is treated the same.</li>
+<li><b>Each doctor reads it with its own model family's reasons removed.</b> A GPT doctor never reads a reason written by a GPT doctor. So the same package reads differently to the three families.</li>
+<li><b>With it, each doctor is shown its own previous rating and the group median.</b> Then it rates again. Nobody is told to move or to stay.</li>
+</ol>
+<p>The table shows the four slots, and how they were filled on the example statement:</p>
 <table>
 <thead><tr><th>Slot</th><th>Who fills it</th><th>On 01-003</th></tr></thead>
 <tbody>
